@@ -272,8 +272,11 @@ def generate_dm(
     
     if message_type == "dm":
         hint = (
-            r'Start with an authentic greeting (e.g. "Hey [Name], I am Sneh..."). '
-            r'Then explicitly state that you saw their post, briefly summarizing its topic to provide context. DO NOT include any links or URLs. '
+            f'You are writing a DM to @{username}. '
+            f'IMPORTANT: Start the message with "Hey @{username}," — use exactly this username, '
+            f'do NOT use any other @mentions or names found in the post content. '
+            r'Then explicitly state that you saw their post, briefly summarizing its topic. '
+            r'DO NOT include any links or URLs. '
             r'After referencing the context, casually relate to their pain and drop ProposalBiz.'
         )
     else:
@@ -368,7 +371,18 @@ def generate_dm(
         # Post-processing to enforce system prompts on weaker models
         import re
         
-        if message_type != "dm":
+        if message_type == "dm":
+            # For DMs: strip any greeting and re-inject the correct one.
+            # This prevents the AI from picking up @mentions from post content.
+            m_greet = re.match(r'^(?:hey|hi|hello)\b\s*(?:@?[a-zA-Z0-9_\.]+\s*){0,3}[,!?:;.\n]+\s*', message, re.IGNORECASE)
+            if m_greet:
+                # Strip whatever greeting the AI used and replace with the correct one
+                message = f"Hey @{username}, " + message[m_greet.end():]
+            elif not re.match(rf'^hey\s+@?{re.escape(username)}\b', message, re.IGNORECASE):
+                # No greeting at all, or wrong format — prepend the correct one
+                message = f"Hey @{username}, " + message
+        else:
+            # For comments: remove greetings entirely
             # 1. Remove Hey/Hi/Hello + optional name (up to 3 words) + punctuation/newline
             m_greet = re.match(r'^(?:hey|hi|hello)\b\s*(?:@?[a-zA-Z0-9_\.]+\s*){0,3}[,!?:;.\n]+\s*', message, re.IGNORECASE)
             if m_greet:

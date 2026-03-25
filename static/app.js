@@ -395,6 +395,9 @@ Your name is Sneh Desai. You work in sales and business development at a softwar
             if (!confirm('AI is ON but no API key entered. It will fail unless using the fallback. Continue?')) return;
         }
 
+        btnGenerate.disabled = true;
+        btnStart.disabled = true;
+
         fetch('/generate', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -411,8 +414,15 @@ Your name is Sneh Desai. You work in sales and business development at a softwar
                 if (data.success) {
                     pollStatus();
                 } else {
+                    btnGenerate.disabled = false;
+                    btnStart.disabled = false;
                     alert(data.error);
                 }
+            })
+            .catch(() => {
+                btnGenerate.disabled = false;
+                btnStart.disabled = false;
+                alert('Network error while requesting generation.');
             });
     });
 
@@ -426,6 +436,9 @@ Your name is Sneh Desai. You work in sales and business development at a softwar
         if (useAI && !key) {
             if (!confirm('AI is ON but no API key entered. The bot will fall back to the manual template. Continue?')) return;
         }
+
+        btnGenerate.disabled = true;
+        btnStart.disabled = true;
 
         fetch('/start', {
             method: 'POST',
@@ -443,8 +456,15 @@ Your name is Sneh Desai. You work in sales and business development at a softwar
                 if (data.success) {
                     pollStatus();
                 } else {
+                    btnGenerate.disabled = false;
+                    btnStart.disabled = false;
                     alert(data.error);
                 }
+            })
+            .catch(() => {
+                btnGenerate.disabled = false;
+                btnStart.disabled = false;
+                alert('Network error while starting automation.');
             });
     });
 
@@ -808,6 +828,13 @@ Your name is Sneh Desai. You work in sales and business development at a softwar
             statusSidebar.textContent = isStopping ? 'Stopping...' : 'Running';
             btnStart.disabled = true;
             btnGenerate.disabled = true;
+            
+            // Lock file upload and remove buttons
+            fileInput.disabled = true;
+            dropZone.style.pointerEvents = 'none';
+            dropZone.style.opacity = '0.5';
+            document.querySelectorAll('.btn-remove-file').forEach(btn => btn.disabled = true);
+            
             // Don't override the button state while a stop is in progress
             if (!isStopping) {
                 btnStop.disabled = false;
@@ -821,6 +848,13 @@ Your name is Sneh Desai. You work in sales and business development at a softwar
             statusDot.classList.remove('running');
             statusText.textContent = 'Idle';
             statusSidebar.textContent = 'Idle';
+            
+            // Unlock file upload and remove buttons
+            fileInput.disabled = false;
+            dropZone.style.pointerEvents = 'auto';
+            dropZone.style.opacity = '1';
+            document.querySelectorAll('.btn-remove-file').forEach(btn => btn.disabled = false);
+
             // Re-enable action buttons whenever a file is uploaded — don't gate on pending count
             btnStart.disabled = !isUploadReady;
             btnGenerate.disabled = !isUploadReady;

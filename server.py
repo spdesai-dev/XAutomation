@@ -110,14 +110,40 @@ def upload_file():
     if not session_files:
         return jsonify({"error": "No valid files uploaded."}), 400
 
+    # CRITICAL FIX: If the user uploads a new file while worker is running,
+    # the worker must be stopped so that the merged queue stays synchronized.
+    global automation_process, is_running
+    if is_running and automation_process is not None:
+        try:
+            if sys.platform == "win32":
+                subprocess.call(["taskkill", "/F", "/T", "/PID", str(automation_process.pid)],
+                                stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            else:
+                import signal
+                os.killpg(os.getpgid(automation_process.pid), signal.SIGTERM)
+        except Exception as e:
+            logger.error(f"Error stopping process on file upload: {e}")
+            
+        try:
+            automation_process.kill() # Guaranteed fallback kill
+        except Exception:
+            pass
+        
+        automation_process = None
+        is_running = False
+        logger.warning("Automation stopped automatically because new files were uploaded.")
+
     return _merge_session_files()
 
-def _merge_session_files():
+def _rebuild_merged_file():
+    """Rebuild the merged CSV from current session_files and update current_file.
+    Returns the new file path, or None if there are no files.
+    This is the single source of truth — always call this right before launching a worker."""
     global current_file, session_files, stats_cache
-    
+
     all_data = []
     first_sm = None
-    
+
     for f_info in session_files:
         try:
             sm = SpreadsheetManager(f_info["path"])
@@ -127,23 +153,29 @@ def _merge_session_files():
         except Exception as e:
             logger.error(f"Failed to read {f_info['original']}: {e}")
 
-    if not all_data:
+    if not all_data or first_sm is None:
         current_file = None
         stats_cache.update({"total": 0, "pending": 0, "sent": 0, "failed": 0})
-        return jsonify({"success": True, "message": "No data left.", "stats": stats_cache, "files": []})
+        return None
 
     master_filename = "merged_session_" + str(int(time.time())) + ".csv"
     master_filepath = os.path.join(app.config['UPLOAD_FOLDER'], master_filename)
-    
+
     first_sm.data = all_data
     first_sm.file_path = master_filepath
     first_sm.save()
-    
+
     current_file = master_filepath
     update_stats(first_sm, current_user="Idle")
-    
+    logger.info(f"Merged {len(all_data)} rows from {len(session_files)} file(s) into {master_filename}")
+    return master_filepath
+
+
+def _merge_session_files():
+    """HTTP-friendly wrapper: rebuilds merged file and returns a jsonify response."""
+    _rebuild_merged_file()
     return jsonify({
-        "success": True, 
+        "success": True,
         "message": "Session updated.",
         "stats": stats_cache,
         "files": [f["original"] for f in session_files]
@@ -170,6 +202,30 @@ def remove_file():
                 pass
             break
             
+    # CRITICAL FIX: If the user removes a file while the worker is running, 
+    # the worker (which is running on an old merged snapshot) must be stopped
+    # so it doesn't continue generating for the deleted sheet.
+    global automation_process, is_running
+    if is_running and automation_process is not None:
+        try:
+            if sys.platform == "win32":
+                subprocess.call(["taskkill", "/F", "/T", "/PID", str(automation_process.pid)],
+                                stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            else:
+                import signal
+                os.killpg(os.getpgid(automation_process.pid), signal.SIGTERM)
+        except Exception as e:
+            logger.error(f"Error stopping process on file removal: {e}")
+            
+        try:
+            automation_process.kill() # Guaranteed fallback kill
+        except Exception:
+            pass
+        
+        automation_process = None
+        is_running = False
+        logger.warning("Automation stopped automatically because a sheet was removed.")
+        
     return _merge_session_files()
 
 @app.route("/start", methods=["POST"])
@@ -178,8 +234,11 @@ def start_automation():
 
     if is_running:
         return jsonify({"error": "Automation is already running."}), 400
-    if not current_file or not os.path.exists(current_file):
+    if not session_files:
         return jsonify({"error": "No valid spreadsheet uploaded."}), 400
+
+    # Grab lock immediately to prevent race conditions
+    is_running = True
 
     data = request.json or {}
     message_template = data.get("message_template", "")
@@ -201,7 +260,16 @@ def start_automation():
     python_exe  = sys.executable
     worker_path = os.path.join(os.path.dirname(__file__), "worker.py")
 
-    cmd = [python_exe, worker_path, current_file, json.dumps(message_template),
+    # REBUILD the merged file fresh from session_files RIGHT NOW.
+    # This is the root-cause fix: current_file could be stale (pointing to an old
+    # merged CSV that contains rows from deleted sheets). By rebuilding here, we
+    # guarantee the worker subprocess only ever sees the current, live data.
+    fresh_file = _rebuild_merged_file()
+    if not fresh_file:
+        is_running = False
+        return jsonify({"error": "No valid spreadsheet data found."}), 400
+
+    cmd = [python_exe, worker_path, fresh_file, json.dumps(message_template),
            "--api-key", api_key, "--model", model]
     
     if system_prompt:
@@ -212,7 +280,7 @@ def start_automation():
         # Check if there are any pre-approved messages — if yes, send-only
         # If no approved messages yet, use standard mode (generate + send inline)
         try:
-            sm_check = SpreadsheetManager(current_file)
+            sm_check = SpreadsheetManager(fresh_file)
             approved = list(sm_check.get_approved_users())
             if approved:
                 cmd.append("--send-only")
@@ -231,13 +299,13 @@ def start_automation():
             bufsize=1,
             cwd=os.path.dirname(__file__)
         )
-        is_running = True
         reader = threading.Thread(target=_read_process_output,
                                   args=(automation_process,), daemon=True)
         reader.start()
         logger.info(f"Automation subprocess started (AI={'ON' if use_ai else 'OFF'}, model={model}).")
         return jsonify({"success": True, "message": "Automation started."})
     except Exception as e:
+        is_running = False
         logger.error(f"Failed to start worker process: {e}")
         return jsonify({"error": f"Could not start automation: {e}"}), 500
 
@@ -249,6 +317,9 @@ def generate_messages():
         return jsonify({"error": "Automation is already running."}), 400
     if not current_file or not os.path.exists(current_file):
         return jsonify({"error": "No valid spreadsheet uploaded."}), 400
+
+    # GRAB LOCK IMMEDIATELY to completely prevent race conditions
+    is_running = True
 
     data = request.json or {}
     message_template = data.get("message_template", "")
@@ -269,7 +340,13 @@ def generate_messages():
     python_exe  = sys.executable
     worker_path = os.path.join(os.path.dirname(__file__), "worker.py")
 
-    cmd = [python_exe, worker_path, current_file, json.dumps(message_template),
+    # REBUILD merged file fresh right before starting subprocess — see start_automation for explanation.
+    fresh_file = _rebuild_merged_file()
+    if not fresh_file:
+        is_running = False
+        return jsonify({"error": "No valid spreadsheet data found."}), 400
+
+    cmd = [python_exe, worker_path, fresh_file, json.dumps(message_template),
            "--api-key", api_key, "--model", model, "--use-ai", "--generate-only"]
     
     if system_prompt:
@@ -284,13 +361,13 @@ def generate_messages():
             bufsize=1,
             cwd=os.path.dirname(__file__)
         )
-        is_running = True
         reader = threading.Thread(target=_read_process_output,
                                   args=(automation_process,), daemon=True)
         reader.start()
         logger.info(f"Generation subprocess started (model={model}).")
         return jsonify({"success": True, "message": "Draft generation started."})
     except Exception as e:
+        is_running = False
         logger.error(f"Failed to start generation process: {e}")
         return jsonify({"error": f"Could not start generation: {e}"}), 500
 
@@ -316,7 +393,16 @@ def stop_automation():
         return jsonify({"success": True, "message": "Automation stopped."})
     except Exception as e:
         logger.error(f"Error stopping process: {e}")
-        return jsonify({"error": f"Could not stop: {e}"}), 500
+        
+    try:
+        if automation_process: # Ensure automation_process is not None before calling kill
+            automation_process.kill() # Guaranteed fallback kill
+    except Exception:
+        pass
+
+    automation_process = None
+    is_running = False
+    return jsonify({"error": f"Could not stop: {e}"}), 500 # This line was moved from the try block
 
 @app.route("/api/approvals", methods=["GET"])
 def get_approvals():

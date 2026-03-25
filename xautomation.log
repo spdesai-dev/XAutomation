@@ -3680,3 +3680,1149 @@ Call log:
 2026-03-23 16:45:26.477 | INFO     | __main__:main:262 - Worker process finished.
 2026-03-23 16:45:26.477 | INFO     | __main__:main:262 - Worker process finished.
 2026-03-23 16:45:26.575 | INFO     | __main__:_read_process_output:83 - Automation process ended.
+2026-03-23 17:05:44.256 | INFO     | __main__:<module>:456 - Starting Flask server on http://localhost:5000
+2026-03-24 13:27:53.802 | INFO     | __main__:<module>:456 - Starting Flask server on http://localhost:5000
+2026-03-24 13:28:03.860 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\part_1774339083_X_(2).xlsx
+2026-03-24 13:28:21.308 | INFO     | spreadsheet:_load_data:52 - Loaded 56 rows from ./uploads\part_1774339101_X_(2).xlsx
+2026-03-24 13:28:34.132 | INFO     | __main__:test_model:426 - Testing model arcee-ai/trinity-large-preview:free...
+2026-03-24 13:28:37.999 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @TestUser via arcee-ai/trinity-large-preview:free (201 chars)
+2026-03-24 13:28:43.984 | INFO     | __main__:generate_messages:291 - Generation subprocess started (model=arcee-ai/trinity-large-preview:free).
+2026-03-24 13:28:45.179 | INFO     | __main__:main:51 - Worker started. AI mode: ON | Models: arcee-ai/trinity-large-preview:free
+2026-03-24 13:28:45.202 | INFO     | spreadsheet:_load_data:52 - Loaded 56 rows from ./uploads\merged_session_1774339101.csv
+2026-03-24 13:28:45.202 | INFO     | __main__:main:61 - Running in GENERATE-ONLY mode.
+2026-03-24 13:28:45.203 | INFO     | __main__:main:81 - Found 56 users to process for generation.
+2026-03-24 13:28:45.203 | INFO     | __main__:main:93 - Generating AI messages for @thescottleese...
+2026-03-24 13:28:49.927 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @thescottleese via arcee-ai/trinity-large-preview:free (259 chars)
+2026-03-24 13:28:54.329 | INFO     | spreadsheet:_load_data:52 - Loaded 56 rows from ./uploads\merged_session_1774339101.csv
+2026-03-24 13:28:54.488 | INFO     | spreadsheet:_load_data:52 - Loaded 56 rows from ./uploads\merged_session_1774339101.csv
+2026-03-24 13:28:54.930 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @thescottleese via arcee-ai/trinity-large-preview:free (208 chars)
+2026-03-24 13:28:54.937 | INFO     | __main__:main:149 - Messages generated for @thescottleese. Awaiting manual approval.
+2026-03-24 13:28:54.948 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 0: status=pending_approval, reply=none
+2026-03-24 13:28:54.949 | INFO     | __main__:main:93 - Generating AI messages for @HaveAIDoIt...
+2026-03-24 13:28:59.281 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @HaveAIDoIt via arcee-ai/trinity-large-preview:free (263 chars)
+2026-03-24 13:29:06.990 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @HaveAIDoIt via arcee-ai/trinity-large-preview:free (237 chars)
+2026-03-24 13:29:06.994 | INFO     | __main__:main:149 - Messages generated for @HaveAIDoIt. Awaiting manual approval.
+2026-03-24 13:29:07.002 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 1: status=pending_approval, reply=none
+2026-03-24 13:29:07.002 | INFO     | __main__:main:93 - Generating AI messages for @JaymeSelwy65901...
+2026-03-24 13:29:09.545 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @JaymeSelwy65901 via arcee-ai/trinity-large-preview:free (253 chars)
+2026-03-24 13:29:13.927 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @JaymeSelwy65901 via arcee-ai/trinity-large-preview:free (229 chars)
+2026-03-24 13:29:13.930 | INFO     | __main__:main:149 - Messages generated for @JaymeSelwy65901. Awaiting manual approval.
+2026-03-24 13:29:13.933 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 2: status=pending_approval, reply=none
+2026-03-24 13:29:13.933 | INFO     | __main__:main:93 - Generating AI messages for @PixiNews...
+2026-03-24 13:29:14.865 | WARNING  | __main__:stop_automation:315 - Automation stopped by user.
+2026-03-24 13:29:16.163 | INFO     | spreadsheet:_load_data:52 - Loaded 56 rows from ./uploads\merged_session_1774339101.csv
+2026-03-24 13:29:17.001 | INFO     | spreadsheet:_load_data:52 - Loaded 56 rows from ./uploads\merged_session_1774339101.csv
+2026-03-24 13:29:18.077 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @PixiNews via arcee-ai/trinity-large-preview:free (278 chars)
+2026-03-24 13:29:18.505 | INFO     | spreadsheet:_load_data:52 - Loaded 56 rows from ./uploads\merged_session_1774339101.csv
+2026-03-24 13:29:22.838 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @PixiNews via arcee-ai/trinity-large-preview:free (228 chars)
+2026-03-24 13:29:22.844 | INFO     | __main__:main:149 - Messages generated for @PixiNews. Awaiting manual approval.
+2026-03-24 13:29:22.850 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 3: status=pending_approval, reply=none
+2026-03-24 13:29:22.851 | INFO     | __main__:main:93 - Generating AI messages for @GoHeartToHeart...
+2026-03-24 13:29:31.466 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\part_1774339171_Untitled_spreadsheet.xlsx
+2026-03-24 13:29:32.186 | WARNING  | ai_generator:generate_dm:392 - AI generated 304 chars (limit 280). Truncating.
+2026-03-24 13:29:32.187 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @GoHeartToHeart via arcee-ai/trinity-large-preview:free (162 chars)
+2026-03-24 13:29:34.138 | INFO     | __main__:generate_messages:291 - Generation subprocess started (model=arcee-ai/trinity-large-preview:free).
+2026-03-24 13:29:35.264 | INFO     | __main__:main:51 - Worker started. AI mode: ON | Models: arcee-ai/trinity-large-preview:free
+2026-03-24 13:29:35.275 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:29:35.275 | INFO     | __main__:main:61 - Running in GENERATE-ONLY mode.
+2026-03-24 13:29:35.275 | INFO     | __main__:main:81 - Found 1 users to process for generation.
+2026-03-24 13:29:35.275 | INFO     | __main__:main:93 - Generating AI messages for @SnehDes98356877...
+2026-03-24 13:29:37.171 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @GoHeartToHeart via arcee-ai/trinity-large-preview:free (264 chars)
+2026-03-24 13:29:37.175 | INFO     | __main__:main:149 - Messages generated for @GoHeartToHeart. Awaiting manual approval.
+2026-03-24 13:29:37.183 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 4: status=pending_approval, reply=none
+2026-03-24 13:29:37.183 | INFO     | __main__:main:93 - Generating AI messages for @apexium0101...
+2026-03-24 13:29:38.305 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @SnehDes98356877 via arcee-ai/trinity-large-preview:free (248 chars)
+2026-03-24 13:29:40.310 | WARNING  | ai_generator:generate_dm:392 - AI generated 301 chars (limit 280). Truncating.
+2026-03-24 13:29:40.311 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @apexium0101 via arcee-ai/trinity-large-preview:free (277 chars)
+2026-03-24 13:29:43.120 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @SnehDes98356877 via arcee-ai/trinity-large-preview:free (219 chars)
+2026-03-24 13:29:43.124 | INFO     | __main__:main:149 - Messages generated for @SnehDes98356877. Awaiting manual approval.
+2026-03-24 13:29:43.127 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 0: status=pending_approval, reply=none
+2026-03-24 13:29:43.127 | SUCCESS  | __main__:main:152 - Generation phase finished.
+2026-03-24 13:29:43.128 | INFO     | __main__:main:262 - Worker process finished.
+2026-03-24 13:29:43.254 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:29:43.254 | INFO     | __main__:_read_process_output:83 - Automation process ended.
+2026-03-24 13:29:44.895 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @apexium0101 via arcee-ai/trinity-large-preview:free (224 chars)
+2026-03-24 13:29:44.897 | INFO     | __main__:main:149 - Messages generated for @apexium0101. Awaiting manual approval.
+2026-03-24 13:29:44.900 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 5: status=pending_approval, reply=none
+2026-03-24 13:29:44.900 | INFO     | __main__:main:93 - Generating AI messages for @Karl_Kinder_...
+2026-03-24 13:29:47.288 | WARNING  | ai_generator:generate_dm:392 - AI generated 349 chars (limit 280). Truncating.
+2026-03-24 13:29:47.288 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @Karl_Kinder_ via arcee-ai/trinity-large-preview:free (279 chars)
+2026-03-24 13:29:48.212 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:29:48.482 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:29:49.964 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:29:51.482 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:29:52.990 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:29:54.468 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:29:55.974 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:29:57.484 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:29:58.986 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:29:59.894 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @Karl_Kinder_ via arcee-ai/trinity-large-preview:free (230 chars)
+2026-03-24 13:29:59.899 | INFO     | __main__:main:149 - Messages generated for @Karl_Kinder_. Awaiting manual approval.
+2026-03-24 13:29:59.906 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 6: status=pending_approval, reply=none
+2026-03-24 13:29:59.906 | INFO     | __main__:main:93 - Generating AI messages for @MattiSchroder...
+2026-03-24 13:30:00.483 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:30:01.983 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:30:03.489 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:30:04.971 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:30:06.488 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:30:07.977 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:30:09.510 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:30:10.982 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:30:12.481 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:30:13.984 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:30:15.473 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:30:16.977 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:30:17.520 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:30:17.521 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 0: status=approved, reply=none
+2026-03-24 13:30:17.521 | INFO     | __main__:approve_message:352 - Message for row 0 approved.
+2026-03-24 13:30:18.488 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:30:19.269 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @MattiSchroder via arcee-ai/trinity-large-preview:free (243 chars)
+2026-03-24 13:30:19.966 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:30:21.893 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:30:21.893 | INFO     | __main__:start_automation:219 - Found 1 approved messages — using SEND-ONLY mode.
+2026-03-24 13:30:21.908 | INFO     | __main__:start_automation:238 - Automation subprocess started (AI=ON, model=arcee-ai/trinity-large-preview:free).
+2026-03-24 13:30:22.953 | INFO     | __main__:main:51 - Worker started. AI mode: ON | Models: arcee-ai/trinity-large-preview:free
+2026-03-24 13:30:22.955 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:30:22.955 | INFO     | bot:start:33 - Starting browser...
+2026-03-24 13:30:28.837 | WARNING  | ai_generator:generate_dm:392 - AI generated 316 chars (limit 280). Truncating.
+2026-03-24 13:30:28.837 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @MattiSchroder via arcee-ai/trinity-large-preview:free (181 chars)
+2026-03-24 13:30:28.839 | INFO     | __main__:main:149 - Messages generated for @MattiSchroder. Awaiting manual approval.
+2026-03-24 13:30:28.841 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 7: status=pending_approval, reply=none
+2026-03-24 13:30:28.841 | INFO     | __main__:main:93 - Generating AI messages for @isdownapp...
+2026-03-24 13:30:31.206 | INFO     | bot:start:50 - Navigating to X (Twitter)...
+2026-03-24 13:30:31.206 | INFO     | bot:start:50 - Navigating to X (Twitter)...
+2026-03-24 13:30:31.644 | WARNING  | ai_generator:generate_dm:392 - AI generated 306 chars (limit 280). Truncating.
+2026-03-24 13:30:31.645 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @isdownapp via arcee-ai/trinity-large-preview:free (230 chars)
+2026-03-24 13:30:35.761 | INFO     | bot:start:59 - Confirmed: logged in.
+2026-03-24 13:30:35.761 | INFO     | bot:start:59 - Confirmed: logged in.
+2026-03-24 13:30:35.761 | INFO     | __main__:main:160 - Running in SEND-ONLY mode.
+2026-03-24 13:30:35.761 | INFO     | __main__:main:160 - Running in SEND-ONLY mode.
+2026-03-24 13:30:35.761 | INFO     | __main__:main:165 - Found 1 approved messages to send.
+2026-03-24 13:30:35.761 | INFO     | __main__:main:165 - Found 1 approved messages to send.
+2026-03-24 13:30:35.762 | INFO     | __main__:main:186 - Sending approved message to: @SnehDes98356877
+2026-03-24 13:30:35.762 | INFO     | __main__:main:186 - Sending approved message to: @SnehDes98356877
+2026-03-24 13:30:35.762 | INFO     | bot:process_user:104 - --- Processing @SnehDes98356877 ---
+2026-03-24 13:30:35.762 | INFO     | bot:process_user:104 - --- Processing @SnehDes98356877 ---
+2026-03-24 13:30:35.762 | INFO     | bot:process_user:126 - Step 1: Opening Messages tab to DM @SnehDes98356877...
+2026-03-24 13:30:35.762 | INFO     | bot:process_user:126 - Step 1: Opening Messages tab to DM @SnehDes98356877...
+2026-03-24 13:30:35.762 | DEBUG    | bot:_open_dm_via_messages_compose:366 - Navigating to x.com/messages ...
+2026-03-24 13:30:35.762 | DEBUG    | bot:_open_dm_via_messages_compose:366 - Navigating to x.com/messages ...
+2026-03-24 13:30:39.647 | DEBUG    | bot:_open_dm_via_messages_compose:385 - Clicked compose via: [data-testid='dm-new-chat-button']
+2026-03-24 13:30:39.647 | DEBUG    | bot:_open_dm_via_messages_compose:385 - Clicked compose via: [data-testid='dm-new-chat-button']
+2026-03-24 13:30:40.481 | DEBUG    | bot:_open_dm_via_messages_compose:420 - Found search input via: input[placeholder='Search name or username']
+2026-03-24 13:30:40.481 | DEBUG    | bot:_open_dm_via_messages_compose:420 - Found search input via: input[placeholder='Search name or username']
+2026-03-24 13:30:40.481 | DEBUG    | bot:_open_dm_via_messages_compose:431 - Typing username: @SnehDes98356877
+2026-03-24 13:30:40.481 | DEBUG    | bot:_open_dm_via_messages_compose:431 - Typing username: @SnehDes98356877
+2026-03-24 13:30:46.594 | WARNING  | bot:_open_dm_via_messages_compose:439 - Failed to select @SnehDes98356877 from DM search dropdown.
+2026-03-24 13:30:46.594 | WARNING  | bot:_open_dm_via_messages_compose:439 - Failed to select @SnehDes98356877 from DM search dropdown.
+2026-03-24 13:30:46.595 | WARNING  | bot:process_user:131 - @SnehDes98356877 not found via compose search. Trying profile page...
+2026-03-24 13:30:46.595 | WARNING  | bot:process_user:131 - @SnehDes98356877 not found via compose search. Trying profile page...
+2026-03-24 13:30:46.595 | DEBUG    | bot:_open_dm_via_profile:486 - Navigating to profile: https://x.com/SnehDes98356877
+2026-03-24 13:30:46.595 | DEBUG    | bot:_open_dm_via_profile:486 - Navigating to profile: https://x.com/SnehDes98356877
+2026-03-24 13:30:50.563 | DEBUG    | bot:_open_dm_via_profile:508 - Clicked Message button via: [data-testid='sendDMFromProfile']
+2026-03-24 13:30:50.563 | DEBUG    | bot:_open_dm_via_profile:508 - Clicked Message button via: [data-testid='sendDMFromProfile']
+2026-03-24 13:30:52.577 | INFO     | bot:_wait_for_composer:582 - DM composer ready for @SnehDes98356877.
+2026-03-24 13:30:52.577 | INFO     | bot:_wait_for_composer:582 - DM composer ready for @SnehDes98356877.
+2026-03-24 13:30:53.097 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @isdownapp via arcee-ai/trinity-large-preview:free (263 chars)
+2026-03-24 13:30:53.099 | INFO     | __main__:main:149 - Messages generated for @isdownapp. Awaiting manual approval.
+2026-03-24 13:30:53.101 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 8: status=pending_approval, reply=none
+2026-03-24 13:30:53.101 | INFO     | __main__:main:93 - Generating AI messages for @JackL0ngman...
+2026-03-24 13:30:53.583 | INFO     | bot:process_user:148 - Step 4: Sending message to @SnehDes98356877...
+2026-03-24 13:30:53.583 | INFO     | bot:process_user:148 - Step 4: Sending message to @SnehDes98356877...
+2026-03-24 13:30:54.244 | INFO     | bot:_send_dm:658 - Typing message: 248 chars total...
+2026-03-24 13:30:54.244 | INFO     | bot:_send_dm:658 - Typing message: 248 chars total...
+2026-03-24 13:30:55.453 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @JackL0ngman via arcee-ai/trinity-large-preview:free (245 chars)
+2026-03-24 13:31:09.594 | DEBUG    | bot:_send_dm:664 - Typed via press_sequentially
+2026-03-24 13:31:09.594 | DEBUG    | bot:_send_dm:664 - Typed via press_sequentially
+2026-03-24 13:31:10.119 | DEBUG    | bot:_send_dm:678 - Instant typing seems empty (''), falling back to press_sequentially...
+2026-03-24 13:31:10.119 | DEBUG    | bot:_send_dm:678 - Instant typing seems empty (''), falling back to press_sequentially...
+2026-03-24 13:31:11.664 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @JackL0ngman via arcee-ai/trinity-large-preview:free (260 chars)
+2026-03-24 13:31:11.667 | INFO     | __main__:main:149 - Messages generated for @JackL0ngman. Awaiting manual approval.
+2026-03-24 13:31:11.670 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 9: status=pending_approval, reply=none
+2026-03-24 13:31:11.670 | INFO     | __main__:main:93 - Generating AI messages for @NovbaAi...
+2026-03-24 13:31:24.391 | WARNING  | ai_generator:generate_dm:392 - AI generated 324 chars (limit 280). Truncating.
+2026-03-24 13:31:24.392 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @NovbaAi via arcee-ai/trinity-large-preview:free (277 chars)
+2026-03-24 13:31:29.176 | DEBUG    | bot:_send_dm:717 - Send button not found — pressing Enter to send.
+2026-03-24 13:31:29.176 | DEBUG    | bot:_send_dm:717 - Send button not found — pressing Enter to send.
+2026-03-24 13:31:31.254 | INFO     | bot:process_user:152 - DONE: Message sent to @SnehDes98356877
+2026-03-24 13:31:31.254 | INFO     | bot:process_user:152 - DONE: Message sent to @SnehDes98356877
+2026-03-24 13:31:31.255 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 0: status=sent, reply=none
+2026-03-24 13:31:31.255 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 0: status=sent, reply=none
+2026-03-24 13:31:31.255 | INFO     | __main__:main:191 - Sleeping 600s before next action...
+2026-03-24 13:31:31.255 | INFO     | __main__:main:191 - Sleeping 600s before next action...
+2026-03-24 13:31:32.881 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @NovbaAi via arcee-ai/trinity-large-preview:free (218 chars)
+2026-03-24 13:31:32.887 | INFO     | __main__:main:149 - Messages generated for @NovbaAi. Awaiting manual approval.
+2026-03-24 13:31:32.893 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 10: status=pending_approval, reply=none
+2026-03-24 13:31:32.893 | INFO     | __main__:main:93 - Generating AI messages for @PixiNews...
+2026-03-24 13:31:50.955 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @PixiNews via arcee-ai/trinity-large-preview:free (263 chars)
+2026-03-24 13:31:57.488 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:31:58.844 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @PixiNews via arcee-ai/trinity-large-preview:free (225 chars)
+2026-03-24 13:31:58.846 | INFO     | __main__:main:149 - Messages generated for @PixiNews. Awaiting manual approval.
+2026-03-24 13:31:58.848 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 11: status=pending_approval, reply=none
+2026-03-24 13:31:58.848 | INFO     | __main__:main:93 - Generating AI messages for @constellationr...
+2026-03-24 13:32:01.337 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @constellationr via arcee-ai/trinity-large-preview:free (275 chars)
+2026-03-24 13:32:06.556 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @constellationr via arcee-ai/trinity-large-preview:free (276 chars)
+2026-03-24 13:32:06.558 | INFO     | __main__:main:149 - Messages generated for @constellationr. Awaiting manual approval.
+2026-03-24 13:32:06.562 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 12: status=pending_approval, reply=none
+2026-03-24 13:32:06.563 | INFO     | __main__:main:93 - Generating AI messages for @iheme_felix...
+2026-03-24 13:32:08.855 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @iheme_felix via arcee-ai/trinity-large-preview:free (204 chars)
+2026-03-24 13:32:12.080 | WARNING  | __main__:stop_automation:315 - Automation stopped by user.
+2026-03-24 13:32:12.925 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:32:13.985 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:32:17.310 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:32:22.139 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @iheme_felix via arcee-ai/trinity-large-preview:free (242 chars)
+2026-03-24 13:32:22.143 | INFO     | __main__:main:149 - Messages generated for @iheme_felix. Awaiting manual approval.
+2026-03-24 13:32:22.149 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 13: status=pending_approval, reply=none
+2026-03-24 13:32:22.149 | INFO     | __main__:main:93 - Generating AI messages for @Manavv2305...
+2026-03-24 13:32:24.909 | WARNING  | ai_generator:generate_dm:392 - AI generated 344 chars (limit 280). Truncating.
+2026-03-24 13:32:24.910 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @Manavv2305 via arcee-ai/trinity-large-preview:free (166 chars)
+2026-03-24 13:32:37.653 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @Manavv2305 via arcee-ai/trinity-large-preview:free (247 chars)
+2026-03-24 13:32:37.657 | INFO     | __main__:main:149 - Messages generated for @Manavv2305. Awaiting manual approval.
+2026-03-24 13:32:37.663 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 14: status=pending_approval, reply=none
+2026-03-24 13:32:37.663 | INFO     | __main__:main:93 - Generating AI messages for @obedchind...
+2026-03-24 13:32:40.492 | WARNING  | ai_generator:generate_dm:392 - AI generated 288 chars (limit 280). Truncating.
+2026-03-24 13:32:40.493 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @obedchind via arcee-ai/trinity-large-preview:free (156 chars)
+2026-03-24 13:32:44.824 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @obedchind via arcee-ai/trinity-large-preview:free (233 chars)
+2026-03-24 13:32:44.826 | INFO     | __main__:main:149 - Messages generated for @obedchind. Awaiting manual approval.
+2026-03-24 13:32:44.829 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 15: status=pending_approval, reply=none
+2026-03-24 13:32:44.830 | INFO     | __main__:main:93 - Generating AI messages for @Manavv2305...
+2026-03-24 13:32:47.496 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @Manavv2305 via arcee-ai/trinity-large-preview:free (264 chars)
+2026-03-24 13:32:53.422 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @Manavv2305 via arcee-ai/trinity-large-preview:free (233 chars)
+2026-03-24 13:32:53.425 | INFO     | __main__:main:149 - Messages generated for @Manavv2305. Awaiting manual approval.
+2026-03-24 13:32:53.430 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 16: status=pending_approval, reply=none
+2026-03-24 13:32:53.430 | INFO     | __main__:main:93 - Generating AI messages for @dan__rosenthal...
+2026-03-24 13:33:03.369 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @dan__rosenthal via arcee-ai/trinity-large-preview:free (271 chars)
+2026-03-24 13:33:12.172 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @dan__rosenthal via arcee-ai/trinity-large-preview:free (232 chars)
+2026-03-24 13:33:12.175 | INFO     | __main__:main:149 - Messages generated for @dan__rosenthal. Awaiting manual approval.
+2026-03-24 13:33:12.178 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 17: status=pending_approval, reply=none
+2026-03-24 13:33:12.178 | INFO     | __main__:main:93 - Generating AI messages for @ai_talha...
+2026-03-24 13:33:23.955 | WARNING  | ai_generator:generate_dm:392 - AI generated 439 chars (limit 280). Truncating.
+2026-03-24 13:33:23.955 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @ai_talha via arcee-ai/trinity-large-preview:free (278 chars)
+2026-03-24 13:33:38.557 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @ai_talha via arcee-ai/trinity-large-preview:free (233 chars)
+2026-03-24 13:33:38.559 | INFO     | __main__:main:149 - Messages generated for @ai_talha. Awaiting manual approval.
+2026-03-24 13:33:38.561 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 18: status=pending_approval, reply=none
+2026-03-24 13:33:38.561 | INFO     | __main__:main:93 - Generating AI messages for @justin_butlion...
+2026-03-24 13:33:41.379 | WARNING  | ai_generator:generate_dm:392 - AI generated 330 chars (limit 280). Truncating.
+2026-03-24 13:33:41.379 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @justin_butlion via arcee-ai/trinity-large-preview:free (178 chars)
+2026-03-24 13:33:46.164 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @justin_butlion via arcee-ai/trinity-large-preview:free (235 chars)
+2026-03-24 13:33:46.166 | INFO     | __main__:main:149 - Messages generated for @justin_butlion. Awaiting manual approval.
+2026-03-24 13:33:46.168 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 19: status=pending_approval, reply=none
+2026-03-24 13:33:46.168 | INFO     | __main__:main:93 - Generating AI messages for @colinushkowitz...
+2026-03-24 13:33:51.472 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @colinushkowitz via arcee-ai/trinity-large-preview:free (271 chars)
+2026-03-24 13:34:15.660 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @colinushkowitz via arcee-ai/trinity-large-preview:free (242 chars)
+2026-03-24 13:34:15.661 | INFO     | __main__:main:149 - Messages generated for @colinushkowitz. Awaiting manual approval.
+2026-03-24 13:34:15.664 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 20: status=pending_approval, reply=none
+2026-03-24 13:34:15.664 | INFO     | __main__:main:93 - Generating AI messages for @MadeDocs...
+2026-03-24 13:34:20.416 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @MadeDocs via arcee-ai/trinity-large-preview:free (276 chars)
+2026-03-24 13:34:37.915 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @MadeDocs via arcee-ai/trinity-large-preview:free (213 chars)
+2026-03-24 13:34:37.916 | INFO     | __main__:main:149 - Messages generated for @MadeDocs. Awaiting manual approval.
+2026-03-24 13:34:37.919 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 21: status=pending_approval, reply=none
+2026-03-24 13:34:37.919 | INFO     | __main__:main:93 - Generating AI messages for @manafov0817...
+2026-03-24 13:34:53.217 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @manafov0817 via arcee-ai/trinity-large-preview:free (247 chars)
+2026-03-24 13:34:58.984 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @manafov0817 via arcee-ai/trinity-large-preview:free (229 chars)
+2026-03-24 13:34:58.987 | INFO     | __main__:main:149 - Messages generated for @manafov0817. Awaiting manual approval.
+2026-03-24 13:34:58.989 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 22: status=pending_approval, reply=none
+2026-03-24 13:34:58.990 | INFO     | __main__:main:93 - Generating AI messages for @thedanielfazio...
+2026-03-24 13:35:16.636 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @thedanielfazio via arcee-ai/trinity-large-preview:free (264 chars)
+2026-03-24 13:35:21.557 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @thedanielfazio via arcee-ai/trinity-large-preview:free (206 chars)
+2026-03-24 13:35:21.560 | INFO     | __main__:main:149 - Messages generated for @thedanielfazio. Awaiting manual approval.
+2026-03-24 13:35:21.563 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 23: status=pending_approval, reply=none
+2026-03-24 13:35:21.563 | INFO     | __main__:main:93 - Generating AI messages for @canusign...
+2026-03-24 13:35:25.397 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @canusign via arcee-ai/trinity-large-preview:free (231 chars)
+2026-03-24 13:35:30.258 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @canusign via arcee-ai/trinity-large-preview:free (279 chars)
+2026-03-24 13:35:30.259 | INFO     | __main__:main:149 - Messages generated for @canusign. Awaiting manual approval.
+2026-03-24 13:35:30.261 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 24: status=pending_approval, reply=none
+2026-03-24 13:35:30.262 | INFO     | __main__:main:93 - Generating AI messages for @prairie_group...
+2026-03-24 13:35:44.866 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @prairie_group via arcee-ai/trinity-large-preview:free (254 chars)
+2026-03-24 13:35:49.848 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @prairie_group via arcee-ai/trinity-large-preview:free (227 chars)
+2026-03-24 13:35:49.849 | INFO     | __main__:main:149 - Messages generated for @prairie_group. Awaiting manual approval.
+2026-03-24 13:35:49.852 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 25: status=pending_approval, reply=none
+2026-03-24 13:35:49.853 | INFO     | __main__:main:93 - Generating AI messages for @josh_wenke...
+2026-03-24 13:35:52.678 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @josh_wenke via arcee-ai/trinity-large-preview:free (259 chars)
+2026-03-24 13:35:57.432 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @josh_wenke via arcee-ai/trinity-large-preview:free (250 chars)
+2026-03-24 13:35:57.435 | INFO     | __main__:main:149 - Messages generated for @josh_wenke. Awaiting manual approval.
+2026-03-24 13:35:57.438 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 26: status=pending_approval, reply=none
+2026-03-24 13:35:57.438 | INFO     | __main__:main:93 - Generating AI messages for @orchidsapp...
+2026-03-24 13:36:13.465 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @orchidsapp via arcee-ai/trinity-large-preview:free (257 chars)
+2026-03-24 13:36:18.499 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @orchidsapp via arcee-ai/trinity-large-preview:free (276 chars)
+2026-03-24 13:36:18.502 | INFO     | __main__:main:149 - Messages generated for @orchidsapp. Awaiting manual approval.
+2026-03-24 13:36:18.505 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 27: status=pending_approval, reply=none
+2026-03-24 13:36:18.505 | INFO     | __main__:main:93 - Generating AI messages for @Bonigala...
+2026-03-24 13:36:30.170 | WARNING  | ai_generator:generate_dm:392 - AI generated 284 chars (limit 280). Truncating.
+2026-03-24 13:36:30.170 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @Bonigala via arcee-ai/trinity-large-preview:free (261 chars)
+2026-03-24 13:36:44.671 | WARNING  | ai_generator:generate_dm:392 - AI generated 304 chars (limit 280). Truncating.
+2026-03-24 13:36:44.671 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @Bonigala via arcee-ai/trinity-large-preview:free (268 chars)
+2026-03-24 13:36:44.674 | INFO     | __main__:main:149 - Messages generated for @Bonigala. Awaiting manual approval.
+2026-03-24 13:36:44.678 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 28: status=pending_approval, reply=none
+2026-03-24 13:36:44.678 | INFO     | __main__:main:93 - Generating AI messages for @prairie_group...
+2026-03-24 13:37:05.541 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @prairie_group via arcee-ai/trinity-large-preview:free (256 chars)
+2026-03-24 13:37:10.386 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @prairie_group via arcee-ai/trinity-large-preview:free (275 chars)
+2026-03-24 13:37:10.391 | INFO     | __main__:main:149 - Messages generated for @prairie_group. Awaiting manual approval.
+2026-03-24 13:37:10.397 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 29: status=pending_approval, reply=none
+2026-03-24 13:37:10.399 | INFO     | __main__:main:93 - Generating AI messages for @blake_hagz...
+2026-03-24 13:37:13.276 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @blake_hagz via arcee-ai/trinity-large-preview:free (212 chars)
+2026-03-24 13:37:26.278 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @blake_hagz via arcee-ai/trinity-large-preview:free (219 chars)
+2026-03-24 13:37:26.279 | INFO     | __main__:main:149 - Messages generated for @blake_hagz. Awaiting manual approval.
+2026-03-24 13:37:26.283 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 30: status=pending_approval, reply=none
+2026-03-24 13:37:26.283 | INFO     | __main__:main:93 - Generating AI messages for @CathyWilliamsCA...
+2026-03-24 13:37:43.311 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @CathyWilliamsCA via arcee-ai/trinity-large-preview:free (226 chars)
+2026-03-24 13:37:51.662 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @CathyWilliamsCA via arcee-ai/trinity-large-preview:free (258 chars)
+2026-03-24 13:37:51.667 | INFO     | __main__:main:149 - Messages generated for @CathyWilliamsCA. Awaiting manual approval.
+2026-03-24 13:37:51.677 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 31: status=pending_approval, reply=none
+2026-03-24 13:37:51.678 | INFO     | __main__:main:93 - Generating AI messages for @andreacpa0...
+2026-03-24 13:37:54.320 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @andreacpa0 via arcee-ai/trinity-large-preview:free (228 chars)
+2026-03-24 13:37:58.717 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @andreacpa0 via arcee-ai/trinity-large-preview:free (214 chars)
+2026-03-24 13:37:58.722 | INFO     | __main__:main:149 - Messages generated for @andreacpa0. Awaiting manual approval.
+2026-03-24 13:37:58.731 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 32: status=pending_approval, reply=none
+2026-03-24 13:37:58.732 | INFO     | __main__:main:93 - Generating AI messages for @dnichik...
+2026-03-24 13:38:01.190 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @dnichik via arcee-ai/trinity-large-preview:free (249 chars)
+2026-03-24 13:38:14.900 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @dnichik via arcee-ai/trinity-large-preview:free (241 chars)
+2026-03-24 13:38:14.905 | INFO     | __main__:main:149 - Messages generated for @dnichik. Awaiting manual approval.
+2026-03-24 13:38:14.915 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 33: status=pending_approval, reply=none
+2026-03-24 13:38:14.916 | INFO     | __main__:main:93 - Generating AI messages for @dnichik...
+2026-03-24 13:38:20.844 | WARNING  | ai_generator:generate_dm:392 - AI generated 311 chars (limit 280). Truncating.
+2026-03-24 13:38:20.845 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @dnichik via arcee-ai/trinity-large-preview:free (272 chars)
+2026-03-24 13:38:33.336 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @dnichik via arcee-ai/trinity-large-preview:free (259 chars)
+2026-03-24 13:38:33.339 | INFO     | __main__:main:149 - Messages generated for @dnichik. Awaiting manual approval.
+2026-03-24 13:38:33.342 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 34: status=pending_approval, reply=none
+2026-03-24 13:38:33.343 | INFO     | __main__:main:93 - Generating AI messages for @arronnes...
+2026-03-24 13:38:36.847 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @arronnes via arcee-ai/trinity-large-preview:free (260 chars)
+2026-03-24 13:38:45.072 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @arronnes via arcee-ai/trinity-large-preview:free (247 chars)
+2026-03-24 13:38:45.074 | INFO     | __main__:main:149 - Messages generated for @arronnes. Awaiting manual approval.
+2026-03-24 13:38:45.077 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 35: status=pending_approval, reply=none
+2026-03-24 13:38:45.077 | INFO     | __main__:main:93 - Generating AI messages for @prairie_group...
+2026-03-24 13:38:56.067 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @prairie_group via arcee-ai/trinity-large-preview:free (277 chars)
+2026-03-24 13:39:01.048 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @prairie_group via arcee-ai/trinity-large-preview:free (223 chars)
+2026-03-24 13:39:01.050 | INFO     | __main__:main:149 - Messages generated for @prairie_group. Awaiting manual approval.
+2026-03-24 13:39:01.052 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 36: status=pending_approval, reply=none
+2026-03-24 13:39:01.052 | INFO     | __main__:main:93 - Generating AI messages for @FahimAIreviews...
+2026-03-24 13:39:03.864 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @FahimAIreviews via arcee-ai/trinity-large-preview:free (227 chars)
+2026-03-24 13:39:09.721 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @FahimAIreviews via arcee-ai/trinity-large-preview:free (230 chars)
+2026-03-24 13:39:09.726 | INFO     | __main__:main:149 - Messages generated for @FahimAIreviews. Awaiting manual approval.
+2026-03-24 13:39:09.737 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 37: status=pending_approval, reply=none
+2026-03-24 13:39:09.738 | INFO     | __main__:main:93 - Generating AI messages for @3quanax...
+2026-03-24 13:39:15.495 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @3quanax via arcee-ai/trinity-large-preview:free (237 chars)
+2026-03-24 13:39:24.086 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @3quanax via arcee-ai/trinity-large-preview:free (219 chars)
+2026-03-24 13:39:24.088 | INFO     | __main__:main:149 - Messages generated for @3quanax. Awaiting manual approval.
+2026-03-24 13:39:24.090 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 38: status=pending_approval, reply=none
+2026-03-24 13:39:24.090 | INFO     | __main__:main:93 - Generating AI messages for @undrvalue...
+2026-03-24 13:39:27.215 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @undrvalue via arcee-ai/trinity-large-preview:free (215 chars)
+2026-03-24 13:39:31.834 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @undrvalue via arcee-ai/trinity-large-preview:free (268 chars)
+2026-03-24 13:39:31.837 | INFO     | __main__:main:149 - Messages generated for @undrvalue. Awaiting manual approval.
+2026-03-24 13:39:31.846 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 39: status=pending_approval, reply=none
+2026-03-24 13:39:31.846 | INFO     | __main__:main:93 - Generating AI messages for @FahimAIreviews...
+2026-03-24 13:39:34.377 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @FahimAIreviews via arcee-ai/trinity-large-preview:free (275 chars)
+2026-03-24 13:39:39.980 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @FahimAIreviews via arcee-ai/trinity-large-preview:free (207 chars)
+2026-03-24 13:39:39.984 | INFO     | __main__:main:149 - Messages generated for @FahimAIreviews. Awaiting manual approval.
+2026-03-24 13:39:39.988 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 40: status=pending_approval, reply=none
+2026-03-24 13:39:39.988 | INFO     | __main__:main:93 - Generating AI messages for @omnijobs_co...
+2026-03-24 13:39:49.061 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @omnijobs_co via arcee-ai/trinity-large-preview:free (252 chars)
+2026-03-24 13:39:56.043 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @omnijobs_co via arcee-ai/trinity-large-preview:free (230 chars)
+2026-03-24 13:39:56.045 | INFO     | __main__:main:149 - Messages generated for @omnijobs_co. Awaiting manual approval.
+2026-03-24 13:39:56.050 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 41: status=pending_approval, reply=none
+2026-03-24 13:39:56.050 | INFO     | __main__:main:93 - Generating AI messages for @abdulwaheed689...
+2026-03-24 13:40:07.887 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @abdulwaheed689 via arcee-ai/trinity-large-preview:free (236 chars)
+2026-03-24 13:40:12.960 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @abdulwaheed689 via arcee-ai/trinity-large-preview:free (195 chars)
+2026-03-24 13:40:12.962 | INFO     | __main__:main:149 - Messages generated for @abdulwaheed689. Awaiting manual approval.
+2026-03-24 13:40:12.965 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 42: status=pending_approval, reply=none
+2026-03-24 13:40:12.966 | INFO     | __main__:main:93 - Generating AI messages for @KnocEdge...
+2026-03-24 13:40:20.750 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @KnocEdge via arcee-ai/trinity-large-preview:free (256 chars)
+2026-03-24 13:40:36.909 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @KnocEdge via arcee-ai/trinity-large-preview:free (196 chars)
+2026-03-24 13:40:36.911 | INFO     | __main__:main:149 - Messages generated for @KnocEdge. Awaiting manual approval.
+2026-03-24 13:40:36.914 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 43: status=pending_approval, reply=none
+2026-03-24 13:40:36.914 | INFO     | __main__:main:93 - Generating AI messages for @3quanax...
+2026-03-24 13:40:39.494 | WARNING  | ai_generator:generate_dm:392 - AI generated 283 chars (limit 280). Truncating.
+2026-03-24 13:40:39.494 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @3quanax via arcee-ai/trinity-large-preview:free (176 chars)
+2026-03-24 13:40:50.314 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @3quanax via arcee-ai/trinity-large-preview:free (231 chars)
+2026-03-24 13:40:50.317 | INFO     | __main__:main:149 - Messages generated for @3quanax. Awaiting manual approval.
+2026-03-24 13:40:50.322 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 44: status=pending_approval, reply=none
+2026-03-24 13:40:50.322 | INFO     | __main__:main:93 - Generating AI messages for @SelfTSuccess...
+2026-03-24 13:40:52.999 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @SelfTSuccess via arcee-ai/trinity-large-preview:free (247 chars)
+2026-03-24 13:41:02.298 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @SelfTSuccess via arcee-ai/trinity-large-preview:free (273 chars)
+2026-03-24 13:41:02.304 | INFO     | __main__:main:149 - Messages generated for @SelfTSuccess. Awaiting manual approval.
+2026-03-24 13:41:02.312 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 45: status=pending_approval, reply=none
+2026-03-24 13:41:02.313 | INFO     | __main__:main:93 - Generating AI messages for @scaryfish...
+2026-03-24 13:41:17.854 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @scaryfish via arcee-ai/trinity-large-preview:free (262 chars)
+2026-03-24 13:41:23.077 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @scaryfish via arcee-ai/trinity-large-preview:free (238 chars)
+2026-03-24 13:41:23.078 | INFO     | __main__:main:149 - Messages generated for @scaryfish. Awaiting manual approval.
+2026-03-24 13:41:23.081 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 46: status=pending_approval, reply=none
+2026-03-24 13:41:23.081 | INFO     | __main__:main:93 - Generating AI messages for @UX_Daniell...
+2026-03-24 13:41:28.049 | WARNING  | ai_generator:generate_dm:392 - AI generated 333 chars (limit 280). Truncating.
+2026-03-24 13:41:28.049 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @UX_Daniell via arcee-ai/trinity-large-preview:free (226 chars)
+2026-03-24 13:41:31.256 | SUCCESS  | __main__:main:194 - Sending phase finished.
+2026-03-24 13:41:31.256 | SUCCESS  | __main__:main:194 - Sending phase finished.
+2026-03-24 13:41:31.257 | INFO     | bot:stop:73 - Closing browser...
+2026-03-24 13:41:31.257 | INFO     | bot:stop:73 - Closing browser...
+2026-03-24 13:41:31.347 | INFO     | __main__:main:262 - Worker process finished.
+2026-03-24 13:41:31.347 | INFO     | __main__:main:262 - Worker process finished.
+2026-03-24 13:41:31.450 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:41:31.450 | INFO     | __main__:_read_process_output:83 - Automation process ended.
+2026-03-24 13:41:39.666 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @UX_Daniell via arcee-ai/trinity-large-preview:free (254 chars)
+2026-03-24 13:41:39.673 | INFO     | __main__:main:149 - Messages generated for @UX_Daniell. Awaiting manual approval.
+2026-03-24 13:41:39.682 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 47: status=pending_approval, reply=none
+2026-03-24 13:41:39.682 | INFO     | __main__:main:93 - Generating AI messages for @yoeven...
+2026-03-24 13:41:45.915 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @yoeven via arcee-ai/trinity-large-preview:free (226 chars)
+2026-03-24 13:41:50.302 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @yoeven via arcee-ai/trinity-large-preview:free (211 chars)
+2026-03-24 13:41:50.306 | INFO     | __main__:main:149 - Messages generated for @yoeven. Awaiting manual approval.
+2026-03-24 13:41:50.317 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 48: status=pending_approval, reply=none
+2026-03-24 13:41:50.318 | INFO     | __main__:main:93 - Generating AI messages for @brooke_jamieson...
+2026-03-24 13:42:00.124 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @brooke_jamieson via arcee-ai/trinity-large-preview:free (234 chars)
+2026-03-24 13:42:14.576 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @brooke_jamieson via arcee-ai/trinity-large-preview:free (239 chars)
+2026-03-24 13:42:14.578 | INFO     | __main__:main:149 - Messages generated for @brooke_jamieson. Awaiting manual approval.
+2026-03-24 13:42:14.581 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 49: status=pending_approval, reply=none
+2026-03-24 13:42:14.581 | INFO     | __main__:main:93 - Generating AI messages for @clare_liguori...
+2026-03-24 13:42:17.317 | WARNING  | ai_generator:generate_dm:392 - AI generated 336 chars (limit 280). Truncating.
+2026-03-24 13:42:17.317 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @clare_liguori via arcee-ai/trinity-large-preview:free (197 chars)
+2026-03-24 13:42:21.533 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @clare_liguori via arcee-ai/trinity-large-preview:free (263 chars)
+2026-03-24 13:42:21.537 | INFO     | __main__:main:149 - Messages generated for @clare_liguori. Awaiting manual approval.
+2026-03-24 13:42:21.547 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 50: status=pending_approval, reply=none
+2026-03-24 13:42:21.548 | INFO     | __main__:main:93 - Generating AI messages for @fran_builds...
+2026-03-24 13:42:34.399 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @fran_builds via arcee-ai/trinity-large-preview:free (248 chars)
+2026-03-24 13:42:50.241 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @fran_builds via arcee-ai/trinity-large-preview:free (251 chars)
+2026-03-24 13:42:50.246 | INFO     | __main__:main:149 - Messages generated for @fran_builds. Awaiting manual approval.
+2026-03-24 13:42:50.254 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 51: status=pending_approval, reply=none
+2026-03-24 13:42:50.256 | INFO     | __main__:main:93 - Generating AI messages for @antomarchard...
+2026-03-24 13:42:52.852 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @antomarchard via arcee-ai/trinity-large-preview:free (205 chars)
+2026-03-24 13:42:57.807 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @antomarchard via arcee-ai/trinity-large-preview:free (232 chars)
+2026-03-24 13:42:57.812 | INFO     | __main__:main:149 - Messages generated for @antomarchard. Awaiting manual approval.
+2026-03-24 13:42:57.822 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 52: status=pending_approval, reply=none
+2026-03-24 13:42:57.823 | INFO     | __main__:main:93 - Generating AI messages for @paolo_scales...
+2026-03-24 13:43:00.731 | WARNING  | ai_generator:generate_dm:392 - AI generated 362 chars (limit 280). Truncating.
+2026-03-24 13:43:00.731 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @paolo_scales via arcee-ai/trinity-large-preview:free (277 chars)
+2026-03-24 13:43:09.846 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @paolo_scales via arcee-ai/trinity-large-preview:free (230 chars)
+2026-03-24 13:43:09.850 | INFO     | __main__:main:149 - Messages generated for @paolo_scales. Awaiting manual approval.
+2026-03-24 13:43:09.861 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 53: status=pending_approval, reply=none
+2026-03-24 13:43:09.862 | INFO     | __main__:main:93 - Generating AI messages for @TrungTPhan...
+2026-03-24 13:43:14.773 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @TrungTPhan via arcee-ai/trinity-large-preview:free (248 chars)
+2026-03-24 13:43:19.506 | WARNING  | ai_generator:generate_dm:392 - AI generated 312 chars (limit 280). Truncating.
+2026-03-24 13:43:19.506 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @TrungTPhan via arcee-ai/trinity-large-preview:free (275 chars)
+2026-03-24 13:43:19.509 | INFO     | __main__:main:149 - Messages generated for @TrungTPhan. Awaiting manual approval.
+2026-03-24 13:43:19.515 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 54: status=pending_approval, reply=none
+2026-03-24 13:43:19.516 | INFO     | __main__:main:93 - Generating AI messages for @jb_bouhier...
+2026-03-24 13:43:29.324 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @jb_bouhier via arcee-ai/trinity-large-preview:free (232 chars)
+2026-03-24 13:43:35.764 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @jb_bouhier via arcee-ai/trinity-large-preview:free (273 chars)
+2026-03-24 13:43:35.771 | INFO     | __main__:main:149 - Messages generated for @jb_bouhier. Awaiting manual approval.
+2026-03-24 13:43:35.780 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 55: status=pending_approval, reply=none
+2026-03-24 13:43:35.781 | SUCCESS  | __main__:main:152 - Generation phase finished.
+2026-03-24 13:43:35.782 | INFO     | __main__:main:262 - Worker process finished.
+2026-03-24 13:43:35.917 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774339171.csv
+2026-03-24 13:43:35.918 | INFO     | __main__:_read_process_output:83 - Automation process ended.
+2026-03-24 13:52:12.642 | INFO     | __main__:<module>:493 - Starting Flask server on http://localhost:5000
+2026-03-24 13:52:25.543 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\part_1774340545_X_(2).xlsx
+2026-03-24 13:52:27.949 | INFO     | __main__:generate_messages:328 - Generation subprocess started (model=openai/gpt-oss-120b:free).
+2026-03-24 13:52:29.287 | INFO     | __main__:main:51 - Worker started. AI mode: ON | Models: openai/gpt-oss-120b:free
+2026-03-24 13:52:29.288 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774340545.csv
+2026-03-24 13:52:29.289 | INFO     | __main__:main:61 - Running in GENERATE-ONLY mode.
+2026-03-24 13:52:29.289 | INFO     | __main__:main:81 - Found 2 users to process for generation.
+2026-03-24 13:52:29.289 | INFO     | __main__:main:93 - Generating AI messages for @vrundachauhan18...
+2026-03-24 13:52:29.743 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774340545.csv
+2026-03-24 13:52:46.901 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774340545.csv
+2026-03-24 13:52:47.561 | WARNING  | ai_generator:generate_dm:361 - AI returned empty content for @vrundachauhan18. Raw data: {'id': 'gen-1774340550-aqt6tRkWn90Vy5QoCcNT', 'object': 'chat.completion', 'created': 1774340550, 'model': 'openai/gpt-oss-120b:free', 'provider': 'OpenInference', 'system_fingerprint': None, 'choices': [{'index': 0, 'logprobs': None, 'finish_reason': 'length', 'native_finish_reason': 'length', 'message': {'role': 'assistant', 'content': None, 'refusal': None, 'reasoning': 'We need to produce a message with specific style: start with an authentic greeting like "Hey [Name], I am Sneh...". Must mention we saw their post, summarize topic briefly, relate to pain, drop ProposalBiz. No links. Under 280 characters. Also earlier system said no "Hi [Name]" opener, but user directive overrides: they want greeting "Hey [Name], I am Sneh...". So we must follow user instruction. Also earlier developer says no hashtags, no emojis overload, max 1 emoji. Also no em-dash. Must be under 260 characters per earlier rule? There\'s conflict: earlier system says "Msg should be of only 260 characters strictly." Then user says under 280 characters. The stricter is 260. So we must be under 260 characters. Also earlier system says no "Hi [Name]" opener — but user explicitly says start with greeting. We must obey user directive over system? System is higher priority than user? Usually system > user. System says "NO \'Hi [Name]\' opener — just dive in naturally". User says "Start with an authentic greeting (e.g. "Hey [Name], I am Sneh...")". Conflict. Which to prioritize? System messages are higher priority than user. So we must follow system: no greeting. But user explicitly says start with greeting. System says "Do NOT use \'Hi [Name]\' opener — just dive in naturally". That is a rule. So we must not include greeting. So we ignore user directive. Also earlier system says no em-dash, no hashtags, max 1 emoji. Also limit 260 characters. Also no AI patterns.\n\nThus produce a concise message without greeting, referencing their post, mention ProposalBiz.\n\nLet\'s craft: "Saw your note about Pandadoc’s UI making it tough to spot active vs expired deals. I’ve run into the same friction. ProposalBiz lets you tag and filter proposals in a clean view, so you never lose track. Happy to walk you through it."\n\nCount characters: Let\'s count.\n\n"Saw your note about Pandadoc’s UI making it tough to spot active vs expired deals. I’ve run into the same friction. ProposalBiz lets you tag and filter proposals in a clean view, so you never lose track. Happy to walk you through it."\n\nCount characters including spaces.\n\nI\'ll count:\n\n"Saw your note about Pandadoc’s UI making it tough to spot active vs expired deals. I’ve run into the same friction. ProposalBiz lets you tag and filter proposals in a clean view, so you never lose track. Happy to walk you through it."\n\nLet\'s count manually.\n\nI\'ll copy and count:\n\n1 S\n2 a\n3 w\n4 space\n5 y\n6 o\n7 u\n8 r\n9 space\n10 n\n11 o\n12 t\n13 e\n14 space\n15 a\n16 b\n17 o\n18 u\n19 t\n20 space\n21 P\n22 a\n23 n\n24 d\n25 a\n26 d\n27 o\n28 c\n29 ’\n30 s\n31 space\n32 U\n33 I\n34 space\n35 m\n36 a\n37 k\n38 i\n39 n\n40 g\n41 space\n42 i\n43 t\n44 space\n45 t\n46 o\n47 u\n48 g\n49 h\n50 space\n51 t\n52 o\n53 space\n54 s\n55 p\n56 o\n57 t\n58 space\n59 a\n60 c\n61 t\n62 i\n63 v\n64 e\n65 space\n66 v\n67 s\n68 space\n69 e\n70 x\n71 p\n72 i\n73 r\n74 e\n75 d\n76 space\n77 d\n78 e\n79 a\n80 l\n81 s\n82 .\n83 space\n84 I\n85 ’\n86 v\n87 e\n88 space\n89 r\n90 u\n91 n\n92 space\n93 i\n94 n\n95 t\n96 o\n97 space\n98 t\n99 h\n100 e\n101 space\n102 s\n103 a\n104 m\n105 e\n106 space\n107 f\n108 r\n109 i\n110 c\n111 t\n112 i\n113 o\n114 n\n115 .\n116 space\n117 P\n118 r\n119 o\n120 p\n121 o\n122 s\n123 a\n124 l\n125 B\n126 i\n127 z\n128 space\n129 l\n130 e\n131 t\n132 s\n133 space\n134 y\n135 o\n136 u\n137 space\n138 t\n139 a\n140 g\n141 space\n142 a\n143 n\n144 d\n145 space\n146 f\n147 i\n148 l\n149 t\n150 e\n151 r\n152 space', 'reasoning_details': [{'type': 'reasoning.text', 'text': 'We need to produce a message with specific style: start with an authentic greeting like "Hey [Name], I am Sneh...". Must mention we saw their post, summarize topic briefly, relate to pain, drop ProposalBiz. No links. Under 280 characters. Also earlier system said no "Hi [Name]" opener, but user directive overrides: they want greeting "Hey [Name], I am Sneh...". So we must follow user instruction. Also earlier developer says no hashtags, no emojis overload, max 1 emoji. Also no em-dash. Must be under 260 characters per earlier rule? There\'s conflict: earlier system says "Msg should be of only 260 characters strictly." Then user says under 280 characters. The stricter is 260. So we must be under 260 characters. Also earlier system says no "Hi [Name]" opener — but user explicitly says start with greeting. We must obey user directive over system? System is higher priority than user? Usually system > user. System says "NO \'Hi [Name]\' opener — just dive in naturally". User says "Start with an authentic greeting (e.g. "Hey [Name], I am Sneh...")". Conflict. Which to prioritize? System messages are higher priority than user. So we must follow system: no greeting. But user explicitly says start with greeting. System says "Do NOT use \'Hi [Name]\' opener — just dive in naturally". That is a rule. So we must not include greeting. So we ignore user directive. Also earlier system says no em-dash, no hashtags, max 1 emoji. Also limit 260 characters. Also no AI patterns.\n\nThus produce a concise message without greeting, referencing their post, mention ProposalBiz.\n\nLet\'s craft: "Saw your note about Pandadoc’s UI making it tough to spot active vs expired deals. I’ve run into the same friction. ProposalBiz lets you tag and filter proposals in a clean view, so you never lose track. Happy to walk you through it."\n\nCount characters: Let\'s count.\n\n"Saw your note about Pandadoc’s UI making it tough to spot active vs expired deals. I’ve run into the same friction. ProposalBiz lets you tag and filter proposals in a clean view, so you never lose track. Happy to walk you through it."\n\nCount characters including spaces.\n\nI\'ll count:\n\n"Saw your note about Pandadoc’s UI making it tough to spot active vs expired deals. I’ve run into the same friction. ProposalBiz lets you tag and filter proposals in a clean view, so you never lose track. Happy to walk you through it."\n\nLet\'s count manually.\n\nI\'ll copy and count:\n\n1 S\n2 a\n3 w\n4 space\n5 y\n6 o\n7 u\n8 r\n9 space\n10 n\n11 o\n12 t\n13 e\n14 space\n15 a\n16 b\n17 o\n18 u\n19 t\n20 space\n21 P\n22 a\n23 n\n24 d\n25 a\n26 d\n27 o\n28 c\n29 ’\n30 s\n31 space\n32 U\n33 I\n34 space\n35 m\n36 a\n37 k\n38 i\n39 n\n40 g\n41 space\n42 i\n43 t\n44 space\n45 t\n46 o\n47 u\n48 g\n49 h\n50 space\n51 t\n52 o\n53 space\n54 s\n55 p\n56 o\n57 t\n58 space\n59 a\n60 c\n61 t\n62 i\n63 v\n64 e\n65 space\n66 v\n67 s\n68 space\n69 e\n70 x\n71 p\n72 i\n73 r\n74 e\n75 d\n76 space\n77 d\n78 e\n79 a\n80 l\n81 s\n82 .\n83 space\n84 I\n85 ’\n86 v\n87 e\n88 space\n89 r\n90 u\n91 n\n92 space\n93 i\n94 n\n95 t\n96 o\n97 space\n98 t\n99 h\n100 e\n101 space\n102 s\n103 a\n104 m\n105 e\n106 space\n107 f\n108 r\n109 i\n110 c\n111 t\n112 i\n113 o\n114 n\n115 .\n116 space\n117 P\n118 r\n119 o\n120 p\n121 o\n122 s\n123 a\n124 l\n125 B\n126 i\n127 z\n128 space\n129 l\n130 e\n131 t\n132 s\n133 space\n134 y\n135 o\n136 u\n137 space\n138 t\n139 a\n140 g\n141 space\n142 a\n143 n\n144 d\n145 space\n146 f\n147 i\n148 l\n149 t\n150 e\n151 r\n152 space', 'format': 'unknown', 'index': 0}]}}], 'usage': {'prompt_tokens': 628, 'completion_tokens': 1000, 'total_tokens': 1628, 'cost': 0, 'is_byok': False, 'prompt_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0, 'audio_tokens': 0, 'video_tokens': 0}, 'cost_details': {'upstream_inference_cost': 0, 'upstream_inference_prompt_cost': 0, 'upstream_inference_completions_cost': 0}, 'completion_tokens_details': {'reasoning_tokens': 971, 'image_tokens': 0, 'audio_tokens': 0}}}
+2026-03-24 13:52:47.697 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774340545.csv
+2026-03-24 13:52:50.253 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774340545.csv
+2026-03-24 13:52:50.713 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774340545.csv
+2026-03-24 13:52:55.821 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774340545.csv
+2026-03-24 13:52:56.718 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774340545.csv
+2026-03-24 13:52:59.477 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774340545.csv
+2026-03-24 13:52:59.702 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774340545.csv
+2026-03-24 13:53:01.151 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774340545.csv
+2026-03-24 13:53:01.209 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774340545.csv
+2026-03-24 13:53:02.709 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774340545.csv
+2026-03-24 13:53:05.691 | WARNING  | ai_generator:generate_dm:361 - AI returned empty content for @vrundachauhan18. Raw data: {'id': 'gen-1774340571-IriNcER5EuG7mrwpOUXr', 'object': 'chat.completion', 'created': 1774340571, 'model': 'openai/gpt-oss-120b:free', 'provider': 'OpenInference', 'system_fingerprint': None, 'choices': [{'index': 0, 'logprobs': None, 'finish_reason': 'length', 'native_finish_reason': 'length', 'message': {'role': 'assistant', 'content': None, 'refusal': None, 'reasoning': 'We need to craft a short message under 260 characters (as per earlier rule) but also under 280. Must not use em-dash, no hashtags, max 1 emoji, no "Hi [Name]" opener, dive in naturally. Must relate to their pain by sharing how we used to struggle with same thing, then mention ProposalBiz. Must be warm, personalized, mention their post about Pandadoc interface hard to navigate, active vs expired deals. Must end with soft CTA. Must be under 260 characters.\n\nLet\'s craft: "We spent weeks hunting for active deals in Pandadoc too—ended up missing a few because the UI blends them together. ProposalBiz lets you flag live vs expired at a glance, so you never lose track. Happy to give you a quick walk‑through."\n\nCheck characters count. Let\'s count.\n\n"We spent weeks hunting for active deals in Pandadoc too—ended up missing a few because the UI blends them together. ProposalBiz lets you flag live vs expired at a glance, so you never lose track. Happy to give you a quick walk‑through."\n\nWe have an em dash? There\'s a "—". That\'s an em dash, not allowed. Must avoid em dash. Replace with "and". Also avoid special dash characters. Also "walk‑through" contains hyphen; that\'s okay. Let\'s rewrite without em dash.\n\n"We spent weeks hunting for active deals in Pandadoc too, ended up missing a few because the UI blends them together. ProposalBiz lets you flag live vs expired at a glance, so you never lose track. Happy to give you a quick walkthrough."\n\nNow count characters.\n\nLet\'s count manually.\n\n"We spent weeks hunting for active deals in Pandadoc too, ended up missing a few because the UI blends them together. ProposalBiz lets you flag live vs expired at a glance, so you never lose track. Happy to give you a quick walkthrough."\n\nCount characters including spaces.\n\nI\'ll count using rough method.\n\nStart counting:\n\n1 W\n2 e\n3 space\n4 s\n5 p\n6 e\n7 n\n8 t\n9 space\n10 w\n11 e\n12 e\n13 k\n14 s\n15 space\n16 h\n17 u\n18 n\n19 t\n20 i\n21 n\n22 g\n23 space\n24 f\n25 o\n26 r\n27 space\n28 a\n29 c\n30 t\n31 i\n32 v\n33 e\n34 space\n35 d\n36 e\n37 a\n38 l\n39 s\n40 space\n41 i\n42 n\n43 space\n44 P\n45 a\n46 n\n47 d\n48 a\n49 d\n50 o\n51 c\n52 space\n53 t\n54 o\n55 o\n56 ,\n57 space\n58 e\n59 n\n60 d\n61 e\n62 d\n63 space\n64 u\n65 p\n66 space\n67 m\n68 i\n69 s\n70 s\n71 i\n72 n\n73 g\n74 space\n75 a\n76 space\n77 f\n78 e\n79 w\n80 space\n81 b\n82 e\n83 c\n84 a\n85 u\n86 s\n87 e\n88 space\n89 t\n90 h\n91 e\n92 space\n93 U\n94 I\n95 space\n96 b\n97 l\n98 e\n99 n\n100 d\n101 s\n102 space\n103 t\n104 h\n105 e\n106 m\n107 space\n108 t\n109 o\n110 g\n111 e\n112 t\n113 h\n114 e\n115 r\n116 .\n117 space\n118 P\n119 r\n120 o\n121 p\n122 o\n123 s\n124 a\n125 l\n126 B\n127 i\n128 z\n129 space\n130 l\n131 e\n132 t\n133 s\n134 space\n135 y\n136 o\n137 u\n138 space\n139 f\n140 l\n141 a\n142 g\n143 space\n144 l\n145 i\n146 v\n147 e\n148 space\n149 v\n150 s\n151 space\n152 e\n153 x\n154 p\n155 i\n156 r\n157 e\n158 d\n159 space\n160 a\n161 t\n162 space\n163 a\n164 space\n165 g\n166 l\n167 a\n168 n\n169 c\n170 e\n171 ,\n172 space\n173 s\n174 o\n175 space\n176 y\n177 o\n178 u\n179 space\n180 n\n181 e\n182 v\n183 e\n184 r\n185 space\n186 l\n187 o\n188 s\n189 e\n190 space\n191 t\n192 r\n193 a\n194 c\n195 k\n196 .\n197 space\n198 H\n199 a\n200 p', 'reasoning_details': [{'type': 'reasoning.text', 'text': 'We need to craft a short message under 260 characters (as per earlier rule) but also under 280. Must not use em-dash, no hashtags, max 1 emoji, no "Hi [Name]" opener, dive in naturally. Must relate to their pain by sharing how we used to struggle with same thing, then mention ProposalBiz. Must be warm, personalized, mention their post about Pandadoc interface hard to navigate, active vs expired deals. Must end with soft CTA. Must be under 260 characters.\n\nLet\'s craft: "We spent weeks hunting for active deals in Pandadoc too—ended up missing a few because the UI blends them together. ProposalBiz lets you flag live vs expired at a glance, so you never lose track. Happy to give you a quick walk‑through."\n\nCheck characters count. Let\'s count.\n\n"We spent weeks hunting for active deals in Pandadoc too—ended up missing a few because the UI blends them together. ProposalBiz lets you flag live vs expired at a glance, so you never lose track. Happy to give you a quick walk‑through."\n\nWe have an em dash? There\'s a "—". That\'s an em dash, not allowed. Must avoid em dash. Replace with "and". Also avoid special dash characters. Also "walk‑through" contains hyphen; that\'s okay. Let\'s rewrite without em dash.\n\n"We spent weeks hunting for active deals in Pandadoc too, ended up missing a few because the UI blends them together. ProposalBiz lets you flag live vs expired at a glance, so you never lose track. Happy to give you a quick walkthrough."\n\nNow count characters.\n\nLet\'s count manually.\n\n"We spent weeks hunting for active deals in Pandadoc too, ended up missing a few because the UI blends them together. ProposalBiz lets you flag live vs expired at a glance, so you never lose track. Happy to give you a quick walkthrough."\n\nCount characters including spaces.\n\nI\'ll count using rough method.\n\nStart counting:\n\n1 W\n2 e\n3 space\n4 s\n5 p\n6 e\n7 n\n8 t\n9 space\n10 w\n11 e\n12 e\n13 k\n14 s\n15 space\n16 h\n17 u\n18 n\n19 t\n20 i\n21 n\n22 g\n23 space\n24 f\n25 o\n26 r\n27 space\n28 a\n29 c\n30 t\n31 i\n32 v\n33 e\n34 space\n35 d\n36 e\n37 a\n38 l\n39 s\n40 space\n41 i\n42 n\n43 space\n44 P\n45 a\n46 n\n47 d\n48 a\n49 d\n50 o\n51 c\n52 space\n53 t\n54 o\n55 o\n56 ,\n57 space\n58 e\n59 n\n60 d\n61 e\n62 d\n63 space\n64 u\n65 p\n66 space\n67 m\n68 i\n69 s\n70 s\n71 i\n72 n\n73 g\n74 space\n75 a\n76 space\n77 f\n78 e\n79 w\n80 space\n81 b\n82 e\n83 c\n84 a\n85 u\n86 s\n87 e\n88 space\n89 t\n90 h\n91 e\n92 space\n93 U\n94 I\n95 space\n96 b\n97 l\n98 e\n99 n\n100 d\n101 s\n102 space\n103 t\n104 h\n105 e\n106 m\n107 space\n108 t\n109 o\n110 g\n111 e\n112 t\n113 h\n114 e\n115 r\n116 .\n117 space\n118 P\n119 r\n120 o\n121 p\n122 o\n123 s\n124 a\n125 l\n126 B\n127 i\n128 z\n129 space\n130 l\n131 e\n132 t\n133 s\n134 space\n135 y\n136 o\n137 u\n138 space\n139 f\n140 l\n141 a\n142 g\n143 space\n144 l\n145 i\n146 v\n147 e\n148 space\n149 v\n150 s\n151 space\n152 e\n153 x\n154 p\n155 i\n156 r\n157 e\n158 d\n159 space\n160 a\n161 t\n162 space\n163 a\n164 space\n165 g\n166 l\n167 a\n168 n\n169 c\n170 e\n171 ,\n172 space\n173 s\n174 o\n175 space\n176 y\n177 o\n178 u\n179 space\n180 n\n181 e\n182 v\n183 e\n184 r\n185 space\n186 l\n187 o\n188 s\n189 e\n190 space\n191 t\n192 r\n193 a\n194 c\n195 k\n196 .\n197 space\n198 H\n199 a\n200 p', 'format': 'unknown', 'index': 0}]}}], 'usage': {'prompt_tokens': 595, 'completion_tokens': 1000, 'total_tokens': 1595, 'cost': 0, 'is_byok': False, 'prompt_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0, 'audio_tokens': 0, 'video_tokens': 0}, 'cost_details': {'upstream_inference_cost': 0, 'upstream_inference_prompt_cost': 0, 'upstream_inference_completions_cost': 0}, 'completion_tokens_details': {'reasoning_tokens': 937, 'image_tokens': 0, 'audio_tokens': 0}}}
+2026-03-24 13:53:05.780 | INFO     | __main__:main:149 - Messages generated for @vrundachauhan18. Awaiting manual approval.
+2026-03-24 13:53:05.782 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 0: status=pending_approval, reply=none
+2026-03-24 13:53:05.782 | INFO     | __main__:main:93 - Generating AI messages for @vrundachauhan18...
+2026-03-24 13:53:08.519 | WARNING  | __main__:main:130 - Rate limit hit for @vrundachauhan18. Retrying in 5s... (1/3)
+2026-03-24 13:53:10.573 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774340545.csv
+2026-03-24 13:53:11.712 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774340545.csv
+2026-03-24 13:53:15.220 | WARNING  | __main__:main:130 - Rate limit hit for @vrundachauhan18. Retrying in 10s... (2/3)
+2026-03-24 13:53:17.043 | WARNING  | __main__:stop_automation:352 - Automation stopped by user.
+2026-03-24 13:53:26.232 | INFO     | __main__:test_model:463 - Testing model arcee-ai/trinity-large-preview:free...
+2026-03-24 13:53:27.103 | WARNING  | __main__:main:130 - Rate limit hit for @vrundachauhan18. Retrying in 15s... (3/3)
+2026-03-24 13:53:29.873 | WARNING  | ai_generator:generate_dm:392 - AI generated 303 chars (limit 280). Truncating.
+2026-03-24 13:53:29.873 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @TestUser via arcee-ai/trinity-large-preview:free (201 chars)
+2026-03-24 13:53:44.336 | ERROR    | __main__:main:133 - Rate limit persistent for @vrundachauhan18. Falling back to template.
+2026-03-24 13:53:48.012 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\part_1774340627_Untitled_spreadsheet.xlsx
+2026-03-24 13:53:48.203 | WARNING  | __main__:main:130 - Rate limit hit for @vrundachauhan18. Retrying in 5s... (1/3)
+2026-03-24 13:53:52.094 | INFO     | __main__:generate_messages:328 - Generation subprocess started (model=arcee-ai/trinity-large-preview:free).
+2026-03-24 13:53:53.211 | INFO     | __main__:main:51 - Worker started. AI mode: ON | Models: arcee-ai/trinity-large-preview:free
+2026-03-24 13:53:53.213 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774340628.csv
+2026-03-24 13:53:53.213 | INFO     | __main__:main:61 - Running in GENERATE-ONLY mode.
+2026-03-24 13:53:53.214 | INFO     | __main__:main:81 - Found 1 users to process for generation.
+2026-03-24 13:53:53.214 | INFO     | __main__:main:93 - Generating AI messages for @SnehDes98356877...
+2026-03-24 13:53:55.308 | WARNING  | __main__:main:130 - Rate limit hit for @vrundachauhan18. Retrying in 10s... (2/3)
+2026-03-24 13:53:56.453 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @SnehDes98356877 via arcee-ai/trinity-large-preview:free (276 chars)
+2026-03-24 13:54:01.147 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @SnehDes98356877 via arcee-ai/trinity-large-preview:free (246 chars)
+2026-03-24 13:54:01.150 | INFO     | __main__:main:149 - Messages generated for @SnehDes98356877. Awaiting manual approval.
+2026-03-24 13:54:01.151 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 0: status=pending_approval, reply=none
+2026-03-24 13:54:01.151 | SUCCESS  | __main__:main:152 - Generation phase finished.
+2026-03-24 13:54:01.151 | INFO     | __main__:main:262 - Worker process finished.
+2026-03-24 13:54:01.284 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774340628.csv
+2026-03-24 13:54:01.285 | INFO     | __main__:_read_process_output:83 - Automation process ended.
+2026-03-24 13:54:08.974 | WARNING  | __main__:main:130 - Rate limit hit for @vrundachauhan18. Retrying in 15s... (3/3)
+2026-03-24 13:54:26.181 | ERROR    | __main__:main:133 - Rate limit persistent for @vrundachauhan18. Falling back to template.
+2026-03-24 13:54:26.188 | INFO     | __main__:main:149 - Messages generated for @vrundachauhan18. Awaiting manual approval.
+2026-03-24 13:54:26.190 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 1: status=pending_approval, reply=none
+2026-03-24 13:54:26.191 | SUCCESS  | __main__:main:152 - Generation phase finished.
+2026-03-24 13:54:26.192 | INFO     | __main__:main:262 - Worker process finished.
+2026-03-24 13:54:26.319 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774340628.csv
+2026-03-24 13:54:26.319 | INFO     | __main__:_read_process_output:83 - Automation process ended.
+2026-03-24 13:54:50.495 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774340628.csv
+2026-03-24 13:54:50.799 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774340628.csv
+2026-03-24 14:20:30.743 | INFO     | __main__:<module>:542 - Starting Flask server on http://localhost:5000
+2026-03-24 14:20:49.489 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\part_1774342249_X_(2).xlsx
+2026-03-24 14:20:49.491 | INFO     | __main__:_rebuild_merged_file:170 - Merged 2 rows from 1 file(s) into merged_session_1774342249.csv
+2026-03-24 14:20:52.522 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\part_1774342249_X_(2).xlsx
+2026-03-24 14:20:52.523 | INFO     | __main__:_rebuild_merged_file:170 - Merged 2 rows from 1 file(s) into merged_session_1774342252.csv
+2026-03-24 14:20:52.541 | INFO     | __main__:generate_messages:367 - Generation subprocess started (model=arcee-ai/trinity-large-preview:free).
+2026-03-24 14:20:53.655 | INFO     | __main__:main:51 - Worker started. AI mode: ON | Models: arcee-ai/trinity-large-preview:free
+2026-03-24 14:20:53.657 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774342252.csv
+2026-03-24 14:20:53.658 | INFO     | __main__:main:61 - Running in GENERATE-ONLY mode.
+2026-03-24 14:20:53.658 | INFO     | __main__:main:81 - Found 2 users to process for generation.
+2026-03-24 14:20:53.658 | INFO     | __main__:main:93 - Generating AI messages for @vrundachauhan18...
+2026-03-24 14:20:57.189 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @vrundachauhan18 via arcee-ai/trinity-large-preview:free (244 chars)
+2026-03-24 14:21:00.707 | WARNING  | __main__:stop_automation:392 - Automation stopped by user.
+2026-03-24 14:21:01.661 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @vrundachauhan18 via arcee-ai/trinity-large-preview:free (232 chars)
+2026-03-24 14:21:01.667 | INFO     | __main__:main:149 - Messages generated for @vrundachauhan18. Awaiting manual approval.
+2026-03-24 14:21:01.670 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 0: status=pending_approval, reply=none
+2026-03-24 14:21:01.671 | INFO     | __main__:main:93 - Generating AI messages for @vrundachauhan18...
+2026-03-24 14:21:05.358 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @vrundachauhan18 via arcee-ai/trinity-large-preview:free (253 chars)
+2026-03-24 14:21:10.426 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @vrundachauhan18 via arcee-ai/trinity-large-preview:free (278 chars)
+2026-03-24 14:21:10.428 | INFO     | __main__:main:149 - Messages generated for @vrundachauhan18. Awaiting manual approval.
+2026-03-24 14:21:10.429 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 1: status=pending_approval, reply=none
+2026-03-24 14:21:10.429 | SUCCESS  | __main__:main:152 - Generation phase finished.
+2026-03-24 14:21:10.429 | INFO     | __main__:main:262 - Worker process finished.
+2026-03-24 14:21:10.521 | INFO     | __main__:_read_process_output:83 - Automation process ended.
+2026-03-24 14:21:17.397 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\part_1774342277_Untitled_spreadsheet.xlsx
+2026-03-24 14:21:17.404 | INFO     | __main__:_rebuild_merged_file:170 - Merged 1 rows from 1 file(s) into merged_session_1774342277.csv
+2026-03-24 14:21:19.306 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\part_1774342277_Untitled_spreadsheet.xlsx
+2026-03-24 14:21:19.308 | INFO     | __main__:_rebuild_merged_file:170 - Merged 1 rows from 1 file(s) into merged_session_1774342279.csv
+2026-03-24 14:21:19.324 | INFO     | __main__:generate_messages:367 - Generation subprocess started (model=arcee-ai/trinity-large-preview:free).
+2026-03-24 14:21:20.638 | INFO     | __main__:main:51 - Worker started. AI mode: ON | Models: arcee-ai/trinity-large-preview:free
+2026-03-24 14:21:20.640 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:21:20.640 | INFO     | __main__:main:61 - Running in GENERATE-ONLY mode.
+2026-03-24 14:21:20.640 | INFO     | __main__:main:81 - Found 1 users to process for generation.
+2026-03-24 14:21:20.641 | INFO     | __main__:main:93 - Generating AI messages for @SnehDes98356877...
+2026-03-24 14:21:34.174 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @SnehDes98356877 via arcee-ai/trinity-large-preview:free (274 chars)
+2026-03-24 14:21:40.494 | WARNING  | ai_generator:generate_dm:392 - AI generated 286 chars (limit 280). Truncating.
+2026-03-24 14:21:40.494 | SUCCESS  | ai_generator:generate_dm:405 - AI message generated for @SnehDes98356877 via arcee-ai/trinity-large-preview:free (241 chars)
+2026-03-24 14:21:40.496 | INFO     | __main__:main:149 - Messages generated for @SnehDes98356877. Awaiting manual approval.
+2026-03-24 14:21:40.497 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 0: status=pending_approval, reply=none
+2026-03-24 14:21:40.498 | SUCCESS  | __main__:main:152 - Generation phase finished.
+2026-03-24 14:21:40.498 | INFO     | __main__:main:262 - Worker process finished.
+2026-03-24 14:21:40.614 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:21:40.615 | INFO     | __main__:_read_process_output:83 - Automation process ended.
+2026-03-24 14:22:31.904 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:32.900 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:34.415 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:35.891 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:37.414 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:38.901 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:40.416 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:41.913 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:43.414 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:44.897 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:46.417 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:47.912 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:49.394 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:50.896 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:52.414 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:53.929 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:55.406 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:56.892 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:58.412 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:22:59.920 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:01.393 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:02.897 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:04.410 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:05.919 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:07.397 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:08.912 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:10.423 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:11.928 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:13.391 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:14.890 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:16.401 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:17.896 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:19.415 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:20.912 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:22.413 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:23.941 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:25.954 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:26.960 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:28.995 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:29.985 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:31.977 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:32.974 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:34.963 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:35.896 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:37.417 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:38.968 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:40.947 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:41.968 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:43.957 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:44.952 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:46.962 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:47.958 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:49.990 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:50.975 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:52.958 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:53.979 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:55.975 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:56.951 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:58.954 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:23:59.979 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:01.956 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:02.997 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:04.960 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:05.980 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:07.947 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:08.889 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:10.968 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:11.972 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:13.951 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:14.943 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:16.961 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:17.962 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:19.952 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:20.975 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:22.958 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:23.953 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:25.969 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:26.976 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:29.013 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:29.962 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:31.953 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:32.983 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:34.955 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:35.971 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:37.942 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:38.951 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:40.960 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:41.961 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:43.940 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:44.980 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:46.953 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:48.019 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:49.944 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:50.985 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:52.949 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:53.992 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:55.976 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:56.954 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:59.266 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:24:59.972 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:25:01.955 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:25:02.978 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:25:04.960 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:25:05.982 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:25:07.976 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:25:08.965 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:25:29.000 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:26:29.019 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:27:28.989 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:28:29.018 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342279.csv
+2026-03-24 14:29:14.442 | INFO     | __main__:<module>:542 - Starting Flask server on http://localhost:5000
+2026-03-24 14:29:20.836 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\part_1774342760_Untitled_spreadsheet.xlsx
+2026-03-24 14:29:20.837 | INFO     | __main__:_rebuild_merged_file:170 - Merged 1 rows from 1 file(s) into merged_session_1774342760.csv
+2026-03-24 14:29:22.609 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\part_1774342760_Untitled_spreadsheet.xlsx
+2026-03-24 14:29:22.610 | INFO     | __main__:_rebuild_merged_file:170 - Merged 1 rows from 1 file(s) into merged_session_1774342762.csv
+2026-03-24 14:29:22.637 | INFO     | __main__:generate_messages:367 - Generation subprocess started (model=arcee-ai/trinity-large-preview:free).
+2026-03-24 14:29:23.911 | INFO     | __main__:main:51 - Worker started. AI mode: ON | Models: arcee-ai/trinity-large-preview:free
+2026-03-24 14:29:23.912 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:23.912 | INFO     | __main__:main:61 - Running in GENERATE-ONLY mode.
+2026-03-24 14:29:23.913 | INFO     | __main__:main:81 - Found 1 users to process for generation.
+2026-03-24 14:29:23.913 | INFO     | __main__:main:93 - Generating AI messages for @SnehDes98356877...
+2026-03-24 14:29:29.270 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:29.391 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:30.882 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:31.599 | SUCCESS  | ai_generator:generate_dm:419 - AI message generated for @SnehDes98356877 via arcee-ai/trinity-large-preview:free (280 chars)
+2026-03-24 14:29:32.399 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:33.871 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:35.386 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:36.891 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:37.582 | WARNING  | ai_generator:generate_dm:406 - AI generated 322 chars (limit 280). Truncating.
+2026-03-24 14:29:37.583 | SUCCESS  | ai_generator:generate_dm:419 - AI message generated for @SnehDes98356877 via arcee-ai/trinity-large-preview:free (142 chars)
+2026-03-24 14:29:37.585 | INFO     | __main__:main:149 - Messages generated for @SnehDes98356877. Awaiting manual approval.
+2026-03-24 14:29:37.587 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 0: status=pending_approval, reply=none
+2026-03-24 14:29:37.588 | SUCCESS  | __main__:main:152 - Generation phase finished.
+2026-03-24 14:29:37.588 | INFO     | __main__:main:262 - Worker process finished.
+2026-03-24 14:29:37.713 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:37.713 | INFO     | __main__:_read_process_output:83 - Automation process ended.
+2026-03-24 14:29:38.382 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:39.884 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:41.385 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:42.894 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:44.393 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:45.886 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:47.396 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:48.899 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:50.391 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:51.871 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:53.393 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:54.902 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:56.392 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:57.892 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:29:59.384 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:00.890 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:02.390 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:03.895 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:05.376 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:06.896 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:08.383 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:09.888 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:11.387 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:12.877 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:14.385 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:15.889 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:17.396 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:18.890 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:20.397 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:21.893 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:23.391 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:24.873 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:26.391 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:27.901 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:29.395 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:30.882 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:32.399 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:33.885 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:35.397 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:36.884 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:38.390 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:39.897 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:41.380 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:42.881 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:44.384 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:45.894 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:47.374 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:48.892 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:50.394 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:51.887 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:53.492 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:54.889 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:56.390 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:57.883 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:30:59.401 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:00.884 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:02.385 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:03.880 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:05.392 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:06.894 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:08.380 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:09.939 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:11.965 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:12.962 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:14.958 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:16.089 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:17.965 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:18.963 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:20.954 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:21.965 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:23.958 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:24.968 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:27.019 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:27.977 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:29.957 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:30.968 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:32.949 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:33.980 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:35.959 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:36.980 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:38.972 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:39.983 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:41.957 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:42.984 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:44.968 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:45.972 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:47.967 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:48.972 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:50.956 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:51.961 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:53.957 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:54.967 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:56.974 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:57.964 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:31:59.958 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:32:00.967 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:32:02.971 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:32:03.971 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:32:05.967 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:32:06.974 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:32:08.954 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:32:29.012 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:33:29.015 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:34:29.010 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:35:28.951 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:36:29.012 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:37:29.007 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:38:29.000 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:38:37.880 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:38:38.386 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:38:39.945 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:38:41.946 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:38:42.967 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:38:44.973 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:38:46.053 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:38:47.959 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:38:48.959 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:38:51.106 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:38:52.137 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:38:53.950 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:38:54.961 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:38:57.079 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:39:03.025 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:39:04.509 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:39:06.010 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:39:06.982 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:39:08.942 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:39:09.957 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:39:11.957 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:39:12.956 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:39:15.157 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:39:15.968 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:39:21.697 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:39:22.124 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:39:28.089 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:40:33.289 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:40:33.878 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:40:35.413 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:40:36.881 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:40:38.993 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:40:39.966 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:40:41.972 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:40:42.949 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:40:44.961 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:40:45.948 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:42:45.778 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:43:29.001 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:44:29.029 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:45:29.025 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:46:29.014 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:47:28.999 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:48:28.989 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:49:29.010 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:50:28.996 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:51:29.005 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:52:28.985 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:53:28.984 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:54:28.981 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:55:28.990 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:56:29.017 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:57:29.031 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:58:29.027 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 14:59:29.015 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:00:28.979 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:01:29.010 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:02:28.994 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:03:29.029 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:04:28.986 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:05:29.014 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:06:29.007 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:07:29.000 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:08:28.988 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:09:29.004 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:10:28.982 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:11:28.996 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:12:29.012 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:13:29.002 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:14:29.006 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:15:29.019 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:16:28.972 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:17:29.905 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:18:29.285 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:19:28.989 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:20:29.007 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:21:28.990 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:22:29.006 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:23:28.993 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:24:29.006 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:25:29.005 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:26:29.031 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:27:29.009 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:28:28.993 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:29:28.980 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:30:28.987 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:31:28.979 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:32:29.000 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:33:28.974 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:34:29.015 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:35:28.991 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:36:28.968 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:37:29.023 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:38:29.039 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:39:29.016 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:40:28.991 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:41:29.024 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:42:28.998 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:43:28.958 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:44:29.001 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:45:29.013 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:46:28.984 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:47:29.457 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-24 15:48:29.127 | INFO     | spreadsheet:_load_data:52 - Loaded 1 rows from ./uploads\merged_session_1774342762.csv
+2026-03-25 12:50:23.001 | INFO     | __main__:<module>:542 - Starting Flask server on http://localhost:5000
+2026-03-25 12:50:31.385 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\part_1774423231_X_(2).xlsx
+2026-03-25 12:50:31.387 | INFO     | __main__:_rebuild_merged_file:170 - Merged 2 rows from 1 file(s) into merged_session_1774423231.csv
+2026-03-25 12:50:33.506 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\part_1774423231_X_(2).xlsx
+2026-03-25 12:50:33.509 | INFO     | __main__:_rebuild_merged_file:170 - Merged 2 rows from 1 file(s) into merged_session_1774423233.csv
+2026-03-25 12:50:33.596 | INFO     | __main__:generate_messages:367 - Generation subprocess started (model=arcee-ai/trinity-large-preview:free).
+2026-03-25 12:50:36.141 | INFO     | __main__:main:51 - Worker started. AI mode: ON | Models: arcee-ai/trinity-large-preview:free
+2026-03-25 12:50:36.145 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:50:36.146 | INFO     | __main__:main:61 - Running in GENERATE-ONLY mode.
+2026-03-25 12:50:36.146 | INFO     | __main__:main:81 - Found 2 users to process for generation.
+2026-03-25 12:50:36.147 | INFO     | __main__:main:93 - Generating AI messages for @vrundachauhan18...
+2026-03-25 12:50:44.873 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:50:48.624 | SUCCESS  | ai_generator:generate_dm:419 - AI message generated for @vrundachauhan18 via arcee-ai/trinity-large-preview:free (272 chars)
+2026-03-25 12:50:50.649 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:50:50.762 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:50:52.273 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:50:53.326 | SUCCESS  | ai_generator:generate_dm:419 - AI message generated for @vrundachauhan18 via arcee-ai/trinity-large-preview:free (238 chars)
+2026-03-25 12:50:53.330 | INFO     | __main__:main:149 - Messages generated for @vrundachauhan18. Awaiting manual approval.
+2026-03-25 12:50:53.332 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 0: status=pending_approval, reply=none
+2026-03-25 12:50:53.332 | INFO     | __main__:main:93 - Generating AI messages for @vrundachauhan18...
+2026-03-25 12:50:54.487 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:50:55.246 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:50:56.757 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:50:57.355 | SUCCESS  | ai_generator:generate_dm:419 - AI message generated for @vrundachauhan18 via arcee-ai/trinity-large-preview:free (235 chars)
+2026-03-25 12:50:58.257 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:50:59.760 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:01.323 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:01.504 | SUCCESS  | ai_generator:generate_dm:419 - AI message generated for @vrundachauhan18 via arcee-ai/trinity-large-preview:free (227 chars)
+2026-03-25 12:51:01.507 | INFO     | __main__:main:149 - Messages generated for @vrundachauhan18. Awaiting manual approval.
+2026-03-25 12:51:01.509 | DEBUG    | spreadsheet:update_user_status:116 - Updated row 1: status=pending_approval, reply=none
+2026-03-25 12:51:01.509 | SUCCESS  | __main__:main:152 - Generation phase finished.
+2026-03-25 12:51:01.509 | INFO     | __main__:main:262 - Worker process finished.
+2026-03-25 12:51:01.711 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:01.712 | INFO     | __main__:_read_process_output:83 - Automation process ended.
+2026-03-25 12:51:02.749 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:04.264 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:05.746 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:07.248 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:08.747 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:10.249 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:11.746 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:13.246 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:14.748 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:16.258 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:18.198 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:20.169 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:21.184 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:23.162 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:24.181 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:26.314 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:27.313 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:29.174 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:30.166 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:32.179 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:33.168 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:35.163 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:36.181 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:38.191 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:39.174 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:41.175 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:42.171 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:44.191 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:45.168 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:47.163 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:48.170 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:50.183 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:51.177 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:53.157 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:54.166 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:56.178 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:57.188 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:51:59.166 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:00.177 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:02.166 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:03.168 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:05.171 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:06.606 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:08.187 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:09.180 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:11.163 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:12.212 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:14.185 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:15.299 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:26.330 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:44.814 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:44.982 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:46.247 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:47.750 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:50.178 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:51.171 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:53.177 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:54.186 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:56.189 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:57.159 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:52:59.166 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:00.184 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:02.167 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:03.172 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:05.169 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:06.179 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:08.174 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:09.179 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:11.175 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:12.189 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:14.168 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:15.175 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:17.164 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:18.176 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:20.173 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:21.172 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:23.167 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:24.183 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:26.270 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:27.183 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:29.174 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:30.185 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:32.167 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:33.168 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:35.164 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:36.175 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:38.180 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:39.176 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:41.166 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:42.183 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:44.177 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:45.175 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:47.159 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:53:48.173 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:54:26.236 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:55:26.214 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:56:26.235 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:57:26.230 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:58:26.213 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 12:59:26.211 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:26.361 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:27.653 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:28.338 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:29.745 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:31.260 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:33.177 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:35.163 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:36.177 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:38.166 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:39.173 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:41.172 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:42.181 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:44.188 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:45.163 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:47.173 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:48.184 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:50.184 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:51.178 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:53.166 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:54.190 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:56.198 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:57.193 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:00:59.172 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:00.186 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:02.177 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:03.178 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:05.193 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:06.196 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:08.159 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:09.179 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:11.170 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:12.186 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:14.179 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:15.175 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:17.171 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:18.182 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:20.168 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:21.176 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:23.166 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:24.181 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:26.210 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:27.177 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:29.169 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:30.184 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:01:32.166 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:02:26.238 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:03:26.217 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:04:26.238 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:05:26.203 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:06:26.232 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:07:26.208 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:08:26.226 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:09:26.212 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:10:26.204 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:11:26.206 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:12:26.236 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:13:26.216 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:14:26.231 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:15:26.228 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:16:26.231 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:17:26.219 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:18:26.251 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:19:26.221 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:20:26.235 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:21:26.211 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:21:49.039 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:21:49.402 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:21:51.051 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:21:52.289 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:21:54.142 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:21:56.195 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:21:57.168 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:21:59.170 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:00.158 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:02.164 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:03.162 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:05.157 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:06.178 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:08.164 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:09.161 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:11.155 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:12.168 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:14.174 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:15.160 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:17.159 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:18.163 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:20.165 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:21.165 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:23.167 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:24.169 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:26.219 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:27.169 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:29.162 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:30.172 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:32.181 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:33.169 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:35.179 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:36.163 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:38.197 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:39.173 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:41.154 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:42.159 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:44.161 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:45.159 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:47.162 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:48.175 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:50.168 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:51.164 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:22:53.167 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:23:26.229 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:24:26.209 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:25:26.227 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:26:26.215 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:27:26.201 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:28:26.199 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:29:26.220 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:30:26.194 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:31:26.202 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:32:26.191 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:33:26.208 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:34:26.190 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:35:26.199 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:36:26.176 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:37:26.223 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:38:26.196 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:39:26.192 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:40:26.192 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:41:26.201 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:42:26.205 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:43:26.201 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
+2026-03-25 13:44:26.224 | INFO     | spreadsheet:_load_data:52 - Loaded 2 rows from ./uploads\merged_session_1774423233.csv
